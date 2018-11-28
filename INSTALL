@@ -1,9 +1,5 @@
 Building Potcoin
 
-See doc/readme-qt.rst for instructions on building Potcoin-Qt,
-the intended-for-end-users, nice-graphical-interface, reference
-implementation of Potcoin.
-
-See doc/build-*.txt for instructions on building potcoind,
+See doc/build-*.md for instructions on building potcoind,
 the intended-for-services, no-graphical-interface, reference
 implementation of Potcoin.

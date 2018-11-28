@@ -67,6 +67,17 @@ qint64 BitcoinUnits::factor(int unit)
     }
 }
 
+qint64 BitcoinUnits::maxAmount(int unit)
+{
+    switch(unit)
+    {
+    case BTC:  return Q_INT64_C(99999999);
+    case mBTC: return Q_INT64_C(99999999999);
+    case uBTC: return Q_INT64_C(99999999999999);
+    default:   return 0;
+    }
+}
+
 int BitcoinUnits::amountDigits(int unit)
 {
     switch(unit)
@@ -109,7 +120,7 @@ QString BitcoinUnits::format(int unit, qint64 n, bool fPlus)
     {
         if (i > 3)
             quotient_str.insert(i-3,' ');
-    }    
+    }
 
     // Right-trim excess zeros after the decimal point
     int nTrim = 0;

@@ -1,1645 +1,2181 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
+<TS language="pt_BR" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Potcoin</source>
-        <translation>Sobre o Potcoin</translation>
+        <source>About Potcoin Core</source>
+        <translation>Sobre Potcoin Core</translation>
     </message>
     <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;Potcoin&lt;/b&gt; version</source>
-        <translation>Versão do &lt;b&gt;Potcoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Potcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Potcoin Core&lt;/b&gt; versão</translation>
     </message>
     <message>
-        <location line="+57"/>
         <source>
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>⏎
-Este é um software experimental.⏎
-⏎
-Distribuido sob a licença de software MIT/X11, veja o arquivo anexo COPYING ou http://www.opensource.org/licenses/mit-license.php.⏎
-⏎
-Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenSSL Toolkit (http://www.openssl.org/), software de criptografia escrito por Eric Young (eay@cryptsoft.com) e sofware UPnP escrito por Thomas Bernard.</translation>
+        <translation>
+Este é um programa experimental.
+
+Distribuído sob uma licença de software MIT/X11, por favor verifique o ficheiro em anexo Copying ou http://www.opensource.org/licenses/mit-license.php.
+
+Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no OpenSSL Toolkit (http://www.openssl.org/), software criptográfico escrito por Eric Young (eay@cryptsoft.com) e software UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
         <source>Copyright</source>
-        <translation>Copyright</translation>
+        <translation>Direitos de autor</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>The Potcoin developers</source>
-        <translation>Desenvolvedores do Potcoin</translation>
+        <source>The Potcoin Core developers</source>
+        <translation>Os programadores Potcoin Core</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
     </message>
 </context>
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Catálogo de endereços</translation>
-    </message>
-    <message>
-        <location line="+19"/>
         <source>Double-click to edit address or label</source>
-        <translation>Clique duas vezes para editar o endereço ou o etiqueta</translation>
+        <translation>Duplo click para editar o endereço ou a descrição</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Criar um novo endereço</translation>
+        <translation>Criar novo endereço</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <source>&amp;New</source>
+        <translation>&amp;Novo</translation>
+    </message>
+    <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copie o endereço selecionado para a área de transferência do sistema</translation>
+        <translation>Copiar o endereço seleccionado para a àrea de transferência</translation>
     </message>
     <message>
-        <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;Novo endereço</translation>
+        <source>&amp;Copy</source>
+        <translation>&amp;Copiar</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Potcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estes são os seus endereços Potcoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
+        <source>C&amp;lose</source>
+        <translation>&amp;Fechar</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Copiar Endereço</translation>
+        <translation>&amp;Copiar endereço</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Mostrar &amp;QR Code</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Sign a message to prove you own a Potcoin address</source>
-        <translation>Assine uma mensagem para provar que você é dono de um endereço Potcoin</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>&amp;Assinar Mensagem</translation>
-    </message>
-    <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>Excluir os endereços selecionados da lista</translation>
+        <translation>Apagar o endereço selccionado da lista</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportar os dados na aba atual para um arquivo</translation>
+        <translation>Exportar os dados para ficheiro</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
         <translation>&amp;Exportar</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Potcoin address</source>
-        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Potcoin específico.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Verificar Mensagem</translation>
-    </message>
-    <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Excluir</translation>
+        <translation>&amp;Eliminar</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="-5"/>
+        <source>Choose the address to send coins to</source>
+        <translation>Escolha o endereço para enviar as moedas</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Escolha o endereço para receber as moedas</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>&amp;Escolha</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Endereços de envio</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Endereços de recepção</translation>
+    </message>
+    <message>
         <source>These are your Potcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços Potcoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
+        <translation>Estes são os seus endereços Potcoin para enviar pagamentos. Verifique sempre o valor e o endereço de envio antes de enviar moedas.</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <source>These are your Potcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus Endereços Potcoin para receber pagamentos. Recomendamos que crie um novo endereço de recepção para cada transação que faça.</translation>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
-        <translation>Copiar &amp;Etiqueta</translation>
+        <translation>Copiar Rótulo</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Editar</translation>
+        <translation>Editar</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation>Enviar bit&amp;coins</translation>
+        <source>Export Address List</source>
+        <translation>Exportar lista de endereços</translation>
     </message>
     <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>Exportar Catálogo de Endereços</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Arquivo separado por vírgulas (*. csv)</translation>
+        <translation>Ficheiro separado por vírgulas (*.csv)</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>Erro ao exportar</translation>
+        <source>Exporting Failed</source>
+        <translation>Falha na exportação</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Não foi possível gravar no arquivo %1.</translation>
+        <source>There was an error trying to save the address list to %1.</source>
+        <translation>Ocorreu um erro ao tentar gravar a lista de endereços em %1</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
         <translation>Endereço</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>(no label)</source>
-        <translation>(Sem rótulo)</translation>
+        <translation>(sem rótulo)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation>Janela da Frase de Segurança</translation>
+        <translation>Janela de palavra-passe</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Digite a frase de segurança</translation>
+        <translation>Introduzir palavra-passe</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Nova frase de segurança</translation>
+        <translation>Nova palavra-passe</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Repita a nova frase de segurança</translation>
+        <translation>Repetir palavra-passe nova</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
+        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
+        <translation>Serve para desligar o envio de dinheiro quando a conta do SO está comprometida. Não acresce qualquer segurança adicional.</translation>
+    </message>
+    <message>
+        <source>For staking only</source>
+        <translation>Apenas para gerar novas moedas.</translation>
+    </message>
+    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Digite a nova frase de seguraça da sua carteira. &lt;br/&gt; Por favor, use uma frase de &lt;b&gt;10 ou mais caracteres aleatórios,&lt;/b&gt; ou &lt;b&gt;oito ou mais palavras.&lt;/b&gt;</translation>
+        <translation>Escreva a nova frase de segurança da sua carteira.&lt;br/&gt;Por favor, use uma frase de &lt;b&gt;10 ou mais caracteres aleatórios,&lt;/b&gt;o &lt;b&gt;oito ou mais palavras&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Criptografar carteira</translation>
+        <translation>Encriptar carteira</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Esta operação precisa de sua frase de segurança para desbloquear a carteira.</translation>
+        <translation>Esta operação necessita da palavra-passe para desbloquear a carteira.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Desbloquear carteira</translation>
+        <translation>Desbloquear Carteira</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Esta operação precisa de sua frase de segurança para descriptografar a carteira.</translation>
+        <translation>Esta operação necessita da palavra-passe para desencriptar a carteira.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Descriptografar carteira</translation>
+        <translation>Desencriptar carteira</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Alterar frase de segurança</translation>
+        <translation>Mudar palavra-passe</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Digite a frase de segurança antiga e nova para a carteira.</translation>
+        <translation>Introduzir a antiga e a nova palavra-passe na carteira</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Confirmar criptografia da carteira</translation>
+        <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POTCOINS&lt;/b&gt;!</source>
-        <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;perder todos os seus POTCOINS!&lt;/b&gt;</translation>
+        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODAS AS SUAS POTCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Tem certeza de que deseja criptografar sua carteira?</translation>
+        <translation>De certeza que pretende encriptar a sua carteira?</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>IMPORTANTE: Qualquer backup prévio que você tenha feito do seu arquivo wallet deve ser substituído pelo novo e encriptado arquivo wallet gerado. Por razões de segurança, qualquer backup do arquivo wallet não criptografado se tornará inútil assim que você começar  a usar uma nova carteira criptografada.</translation>
+        <translation>IMPORTANTE: Qualquer cópia de segurança anterior da carteira deverá ser substituída com o novo e encriptado ficheiro de carteira. Por razões de segurança, cópias de segurança não encriptadas e efectuadas anteriormente do ficheiro da carteira tornar-se-ão inúteis assim que começar a usar a nova carteira encriptada.</translation>
     </message>
     <message>
-        <location line="+100"/>
-        <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Cuidado: A tecla Caps Lock está ligada!</translation>
+        <translation>Aviso: A tecla Caps Lock está ligada!</translation>
     </message>
     <message>
-        <location line="-130"/>
-        <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>Carteira criptografada</translation>
+        <translation>Carteira encriptada</translation>
     </message>
     <message>
-        <location line="-56"/>
         <source>Potcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your potcoins from being stolen by malware infecting your computer.</source>
-        <translation>O Potcoin irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas potcoins de serem roubadas por malwares que tenham infectado o seu computador.</translation>
+        <translation>O cliente Potcoin irá agora ser fechado para terminar o processo de encriptação. Lembre-se que a encriptação da sua carteira não protegerá totalmente as suas potcoins de serem roubadas por programas maliciosos que infectem o seu computador.</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <location line="+7"/>
-        <location line="+42"/>
-        <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>A criptografia da carteira falhou</translation>
+        <translation>Falha na encriptação da carteira</translation>
     </message>
     <message>
-        <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>A criptografia da carteira falhou devido a um erro interno. Sua carteira não estava criptografada.</translation>
+        <translation>A encriptação da carteira falhou devido a um erro interno. A sua carteira não foi encriptada.</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>A frase de segurança fornecida não confere.</translation>
+        <translation>As palavras-passe fornecidas não têm coincidem.</translation>
     </message>
     <message>
-        <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>A abertura da carteira falhou</translation>
+        <translation>Falha no desbloqueio da carteira</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+11"/>
-        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>A frase de segurança digitada para a descriptografia da carteira estava incorreta.</translation>
+        <translation>A palavra-passe introduzida para a desencriptação da carteira está incorrecta.</translation>
     </message>
     <message>
-        <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>A descriptografia da carteira falhou</translation>
+        <translation>Falha na desencriptação da carteira</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>A frase de segurança da carteira foi alterada com êxito.</translation>
+        <translation>Palavra-passe alterada com sucesso.</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>&amp;Assinar Mensagem...</translation>
+        <translation>Assinar &amp;mensagem...</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>Sincronizando com a rede...</translation>
+        <translation>A Sincronizar com a rede...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>&amp;Visão geral</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Node</source>
+        <translation>Nó</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Mostrar visão geral da carteira</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <source>&amp;Request</source>
+        <translation>&amp;Pedido</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and potcoin: URIs)</source>
+        <translation>Pedidos de pagamentos (Gera códigos QR e Potcoin: URl's)</translation>
+    </message>
+    <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transações</translation>
+        <translation>&amp;Transacções</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Navegar pelo histórico de transações</translation>
+        <translation>Navegar histórico de transacções</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Editar a lista de endereços e rótulos</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Mostrar a lista de endereços para receber pagamentos</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>S&amp;air</translation>
+        <translation>Fechar</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
-        <translation>Sair da aplicação</translation>
+        <translation>Sair</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Show information about Potcoin</source>
-        <translation>Mostrar informação sobre Potcoin</translation>
+        <translation>Mostrar informações sobre Potcoin</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>About &amp;Qt</source>
         <translation>Sobre &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>Mostrar informações sobre o Qt</translation>
+        <translation>Mostrar informações sobre Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>&amp;Opções...</translation>
+        <translation>&amp;Opções</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Criptografar Carteira...</translation>
+        <translation>&amp;Encriptar Carteira...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Carteira...</translation>
+        <translation>&amp;Cópia de segurança da carteira...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Mudar frase de segurança...</translation>
+        <translation>&amp;Mudar Palavra-passe...</translation>
     </message>
     <message>
-        <location line="+285"/>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>&amp;Desbloquear Carteira...</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Desbloquear Carteira</translation>
+    </message>
+    <message>
+        <source>&amp;Lock Wallet</source>
+        <translation>&amp;Bloquear Carteira</translation>
+    </message>
+    <message>
+        <source>Lock wallet</source>
+        <translation>Bloquear Carteira</translation>
+    </message>
+    <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Endereços de envio...</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Endereços de recpção</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Abrir &amp;URL</translation>
+    </message>
+    <message>
+        <source>Open a potcoin: URI or payment request</source>
+        <translation>Abrir um Potcoin: URI ou pedido de pagamento</translation>
+    </message>
+    <message>
+        <source>Potcoin Core client</source>
+        <translation>Cliente Potcoin Core</translation>
+    </message>
+    <message>
         <source>Importing blocks from disk...</source>
-        <translation>Importando blocos do disco...</translation>
+        <translation>A importar blocos do disco...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
-        <translation>Reindexando blocos no disco...</translation>
+        <translation>A Re-indexar blocos no disco...</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
-        <location line="-347"/>
+        <source>Staking.&lt;br&gt;Your average weight is %1&lt;br&gt;Your total weight is %2&lt;br&gt;Network weight is %3&lt;br&gt;Expected to earn reward once every %4</source>
+        <translation>Gerando.&lt;br&gt;O seu peso médio é %1&lt;br&gt;O seu peso total é %2&lt;br&gt;O peso da Rede é %3&lt;br&gt;Intervalo de tempo esperado para gerar é de %4</translation>
+    </message>
+    <message>
+        <source>Not staking because wallet is locked</source>
+        <translation>Não está a gerar moedas porque a carteira está bloqueada</translation>
+    </message>
+    <message>
+        <source>Not staking because wallet is offline</source>
+        <translation>Não está a gerar moedas porque está desligado da rede</translation>
+    </message>
+    <message>
+        <source>Not staking because wallet is syncing</source>
+        <translation>Não está a gerar moedas porque está a sincronizar</translation>
+    </message>
+    <message>
+        <source>Not staking because you don't have mature coins</source>
+        <translation>Não está a gerar moedas porque moedas não estão maduras</translation>
+    </message>
+    <message>
+        <source>Not staking</source>
+        <translation>Não gera moedas.</translation>
+    </message>
+    <message>
         <source>Send coins to a Potcoin address</source>
-        <translation>Enviar moedas para um endereço potcoin</translation>
+        <translation>Enviar moedas para um endereço Potcoin</translation>
     </message>
     <message>
-        <location line="+49"/>
         <source>Modify configuration options for Potcoin</source>
-        <translation>Modificar opções de configuração para potcoin</translation>
+        <translation>Modificar opções de configuração para Potcoin</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Backup wallet to another location</source>
-        <translation>Fazer cópia de segurança da carteira para uma outra localização</translation>
+        <translation>Criar cópia de segurança noutra localização</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Mudar a frase de segurança utilizada na criptografia da carteira</translation>
+        <translation>Mudar a palavra-chave usada na encriptação da carteira</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation>Janela de &amp;Depuração</translation>
+        <translation>&amp;Janela de depuração</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>Abrir console de depuração e diagnóstico</translation>
+        <translation>Abrir consola de depuração e diagnóstico</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verificar mensagem...</translation>
     </message>
     <message>
-        <location line="-165"/>
-        <location line="+530"/>
         <source>Potcoin</source>
         <translation>Potcoin</translation>
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
         <translation>Carteira</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
         <translation>&amp;Enviar</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>&amp;Receive</source>
-        <translation>&amp;Receber</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation>&amp;Endereços</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>&amp;About Potcoin</source>
-        <translation>&amp;Sobre o Potcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Exibir/Ocultar</translation>
+        <translation>&amp;Mostrar / Ocultar</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>Mostrar ou esconder a Janela Principal.</translation>
+        <translation>Mostrar ou ocultar a janela principal</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Criptografar as chaves privadas que pertencem à sua carteira</translation>
+        <translation>Encriptar as chaves privadas pertencentes à carteira</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Sign messages with your Potcoin addresses to prove you own them</source>
-        <translation>Assine mensagems com seus endereços Potcoin para provar que você é dono deles</translation>
+        <translation>Assine mensagens com o seus endereços Potcoin para provar que os controla</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Potcoin addresses</source>
-        <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços Potcoin específicos</translation>
+        <translation>Verificar mensagens para assegurar que foram assinadas com o endereço Potcoin especificado</translation>
     </message>
     <message>
-        <location line="+28"/>
         <source>&amp;File</source>
-        <translation>&amp;Arquivo</translation>
+        <translation>&amp;Ficheiro</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>&amp;Configurações</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>&amp;Ajuda</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
     <message>
-        <location line="+47"/>
-        <source>Potcoin client</source>
-        <translation>Cliente Potcoin</translation>
+        <source>Potcoin Core</source>
+        <translation>Potcoin Core</translation>
+    </message>
+    <message>
+        <source>&amp;About Potcoin Core</source>
+        <translation>&amp;Sobre Potcoin Core</translation>
+    </message>
+    <message>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Mostrar lista de endereços e rótulos usados</translation>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>Mostrar a lista de endereços e rótulos a receber </translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Opções da linha de comandos</translation>
+    </message>
+    <message>
+        <source>Show the Potcoin Core help message to get a list with possible Potcoin command-line options</source>
+        <translation>Mostrar a mensagem de ajuda de Potcoin Core para obter uma lista possível de opções da linha de comandos</translation>
     </message>
     <message numerus="yes">
-        <location line="+141"/>
         <source>%n active connection(s) to Potcoin network</source>
-        <translation><numerusform>%n conexão ativa na rede Potcoin</numerusform><numerusform>%n conexões ativas na rede Potcoin</numerusform></translation>
+        <translation><numerusform>%n ligações activas à rede Potcoin</numerusform><numerusform>%n ligações activas à rede Potcoin</numerusform></translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>No block source available...</source>
-        <translation type="unfinished"/>
+        <translation>Nenhum bloco fonte disponível...</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>Processado %1 de %2 blocos (estimado) de histórico de transações.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation>Processado %1 blocos do histórico de transações.</translation>
+        <translation>Processados %1 blocos do histórico de transacções.</translation>
     </message>
     <message numerus="yes">
-        <location line="+20"/>
         <source>%n hour(s)</source>
-        <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
+        <translation><numerusform>%n horas</numerusform><numerusform>%n horas </numerusform></translation>
     </message>
     <message numerus="yes">
-        <location line="+4"/>
         <source>%n day(s)</source>
-        <translation><numerusform>%n dia</numerusform><numerusform>%n dias</numerusform></translation>
+        <translation><numerusform>%n dias</numerusform><numerusform>%n dias</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location line="+4"/>
         <source>%n week(s)</source>
-        <translation><numerusform>%n semana</numerusform><numerusform>%n semanas</numerusform></translation>
+        <translation><numerusform>%n semanas</numerusform><numerusform>%n semanas</numerusform></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <source>%1 and %2</source>
+        <translation>%1 e %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n anos</numerusform><numerusform>%n anos </numerusform></translation>
+    </message>
+    <message>
         <source>%1 behind</source>
         <translation>%1 atrás</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Último bloco recebido foi gerado %1 atrás.</translation>
+        <translation>Ultimo bloco recebido foi gerado à %1 atrás</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transações após isso ainda não estão visíveis.</translation>
+        <translation>Transacções após isto não estarão ainda visiveis.</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
         <translation>Erro</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation>Cuidado</translation>
+        <translation>Aviso</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
         <translation>Informação</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>A transação está acima do tamanho limite. Você ainda enviar ela com uma taxa de %1, que vai para os nós processam sua transação e ajuda a manter a rede. Você quer pagar a taxa?</translation>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
-        <translation>Atualizado</translation>
+        <translation>Actualizado</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Catching up...</source>
-        <translation>Recuperando o atraso ...</translation>
+        <translation>A Recuperar...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation>Confirmar taxa de transação</translation>
-    </message>
-    <message>
-        <location line="+8"/>
         <source>Sent transaction</source>
-        <translation>Transação enviada</translation>
+        <translation>Transacção enviada</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation>Transação recebida</translation>
+        <translation>Transacção recebida</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Date: %1
 Amount: %2
 Type: %3
 Address: %4
 </source>
         <translation>Data: %1
-Quantidade: %2
+Quantia: %2
 Tipo: %3
-Endereço: %4</translation>
+Endereço: %4
+</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>Manipulação de URI</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Potcoin address or malformed URI parameters.</source>
-        <translation>URI não pode ser decodificado! Isso pode ter sido causado por um endereço Potcoin inválido ou por parâmetros URI malformados.</translation>
-    </message>
-    <message>
-        <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente &lt;b&gt;desbloqueada&lt;/b&gt;</translation>
+        <translation>A carteira está &lt;b&gt;encriptada&lt;/b&gt; e &lt;b&gt;desbloqueada&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente &lt;b&gt;bloqueada&lt;/b&gt;</translation>
+        <translation>A carteira está &lt;b&gt;encriptada&lt;/b&gt; e &lt;b&gt;bloqueada&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Potcoin can no longer continue safely and will quit.</source>
-        <translation>Um erro fatal ocorreu. Potcoin não pode continuar em segurança e irá fechar.</translation>
+        <translation>Ocorreu um erro fatal. A carteira Potcoin não pode continuar com segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
         <source>Network Alert</source>
-        <translation>Alerta da Rede</translation>
+        <translation>Alerta de rede</translation>
+    </message>
+</context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <source>Coin Control Address Selection</source>
+        <translation>Selecção de Controlo de Endereços de moeda</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Quantidade:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Bytes:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Quantia:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Prioridade:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Taxa</translation>
+    </message>
+    <message>
+        <source>Low Output:</source>
+        <translation>Saídas baixas:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Depois de taxas:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Troco:</translation>
+    </message>
+    <message>
+        <source>(un)select all</source>
+        <translation>(de)selecionar todos</translation>
+    </message>
+    <message>
+        <source>Tree mode</source>
+        <translation>Modo em cadeia:</translation>
+    </message>
+    <message>
+        <source>List mode</source>
+        <translation>Modo Lista</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Quantia</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Endereço</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>Confirmações</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confirmadas</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation>Prioridade</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Copiar endereços</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copiar rótulo</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copiar quantia</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Copiar ID da transacção</translation>
+    </message>
+    <message>
+        <source>Lock unspent</source>
+        <translation>Bloquear não gasto</translation>
+    </message>
+    <message>
+        <source>Unlock unspent</source>
+        <translation>Desbloquear não gasto</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Copiar quantidade</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Copiar Taxa</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Copiar valor após taxa</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Copiar bytes</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>Copiar prioridade</translation>
+    </message>
+    <message>
+        <source>Copy low output</source>
+        <translation>Copiar baixas saidas</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Copiar Alteração</translation>
+    </message>
+    <message>
+        <source>highest</source>
+        <translation>O mais alto</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>mais alto</translation>
+    </message>
+    <message>
+        <source>high</source>
+        <translation>Alto</translation>
+    </message>
+    <message>
+        <source>medium-high</source>
+        <translation>Medio-Alto</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>Médio</translation>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation>Baixo-médio</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>Baixo</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>Mais baixo</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>O mais baixo</translation>
+    </message>
+    <message>
+        <source>(%1 locked)</source>
+        <translation>(%1 Bloqueado)</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>Nenhum</translation>
+    </message>
+    <message>
+        <source>Dust</source>
+        <translation>Pó</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>Sim</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>Não</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>O rótulo ficará vermelho se o tamanho da transacção for superior a 1000 bytes.</translation>
+    </message>
+    <message>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>Isto representa a requisição de pelo menos %1 por KB de taxa</translation>
+    </message>
+    <message>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation>Pode variar +/- 1 byte por entrada</translation>
+    </message>
+    <message>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>Transacções com prioridade mais elevada têm maior probabilidade de ser incluídas num bloco.</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Este icon tornar-se à vermelho, se a prioridade for menor que "media"</translation>
+    </message>
+    <message>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>Este icon tornar-se à vermelho, se qualquer receptor receber uma quantia inferior a %1.</translation>
+    </message>
+    <message>
+        <source>This means a fee of at least %1 is required.</source>
+        <translation>Isto significa uma taxa mínima de %1</translation>
+    </message>
+    <message>
+        <source>Amounts below 0.546 times the minimum relay fee are shown as dust.</source>
+        <translation>Quantias abaixo de 0.546 vezes a taxa mínima são consideradas poeira.</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the change is smaller than %1.</source>
+        <translation>O icon torna-se vermelho, se o troco for inferior a %1</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(sem rótulo)</translation>
+    </message>
+    <message>
+        <source>change from %1 (%2)</source>
+        <translation>Troco de %1 (%2)</translation>
+    </message>
+    <message>
+        <source>(change)</source>
+        <translation>(Troco)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
         <translation>Editar Endereço</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>&amp;Etiqueta</translation>
+        <translation>&amp;Rótulo</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>A etiqueta associada a esse endereço do catálogo</translation>
+        <source>The label associated with this address list entry</source>
+        <translation>O rótulo associado com a entrada desta lista de endereços.</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>O rótulo associado com a entrada desta lista de endereços. Apenas pode ser alterado para endereços de envio.</translation>
+    </message>
+    <message>
         <source>&amp;Address</source>
         <translation>&amp;Endereço</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>O endereço associado à essa entrada do seu catálogo de endereços. Isso só pode ser modificado para endereço de envio.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
         <translation>Novo endereço de recebimento</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>New sending address</source>
         <translation>Novo endereço de envio</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Edit receiving address</source>
         <translation>Editar endereço de recebimento</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Edit sending address</source>
         <translation>Editar endereço de envio</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>O endereço digitado &quot;%1&quot; já se encontra no catálogo de endereços.</translation>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>O endereço introduzido "%1" já se encontra no livro de endereços.</translation>
     </message>
     <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Potcoin address.</source>
-        <translation>O endereço digitado &quot;%1&quot; não é um endereço Potcoin válido.</translation>
+        <source>The entered address "%1" is not a valid Potcoin address.</source>
+        <translation>O endereço introduzido "%1" não é um endereço Potcoin válido.</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Não foi possível destravar a carteira.</translation>
+        <translation>Não foi possível desbloquear carteira.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>A geração de nova chave falhou.</translation>
+        <translation>Falha ao gerar nova chave.</translation>
     </message>
 </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>FreespaceChecker</name>
     <message>
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>Potcoin-Qt</source>
-        <translation>Potcoin-Qt</translation>
+        <source>A new data directory will be created.</source>
+        <translation>Um novo directório de dados será criado.</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <source>name</source>
+        <translation>Nome</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>O directório já existe. Adiciona %1 se pretende criar um novo directório. </translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>O caminho já existe, e não é um directório. </translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Não é possível criar um directório aqui.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Potcoin Core - Command-line options</source>
+        <translation>Potcoin Core - Opções de linha de comando</translation>
+    </message>
+    <message>
+        <source>Potcoin Core</source>
+        <translation>Potcoin Core</translation>
+    </message>
+    <message>
         <source>version</source>
-        <translation>versão</translation>
+        <translation>Versão</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Usage:</source>
-        <translation>Uso:</translation>
+        <translation>Utilização:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>command-line options</source>
-        <translation>opções da linha de comando</translation>
+        <translation>Opção da linha de comandos</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>UI options</source>
-        <translation>opções da UI</translation>
+        <translation>Opções de UI</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Escolher língua, por exemplo &quot;de_DE&quot; (padrão: localização do sistema)</translation>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Definir a língua, por exemplo "pt_PT" (defeito: sistema local)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Start minimized</source>
-        <translation>Inicializar minimizado</translation>
+        <translation>Começar minimizado</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Configurar certificados SSL root para pedido de pagamento (default: -system-)</translation>
+    </message>
+    <message>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Mostrar tela inicial ao ligar (padrão: 1)</translation>
+        <translation>Mostrar ecrã de entrada no arranque (defeito: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Escolher directoria no inicio (defeito: 0)</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Bem vindo</translation>
+    </message>
+    <message>
+        <source>Welcome to Potcoin Core.</source>
+        <translation>Bem-vindo ao Potcoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Potcoin Core will store its data.</source>
+        <translation>Sendo esta a primeira vez que o programa é iniciado, poderá escolher onde o Potcoin Core irá guardar os seus dados.</translation>
+    </message>
+    <message>
+        <source>Potcoin Core will download and store a copy of the Potcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O Potcoin Core vai transferir e armazenar uma cópia da cadeia de blocos. Pelo menos %1GB de dados serão armazenados nesta pasta, e vão crescer ao longo do tempo. A sua carteira também irá ser armazenada nesta pasta.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>Utilize o directório predefinido</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>Use um directório definido</translation>
+    </message>
+    <message>
+        <source>Potcoin Core</source>
+        <translation>Potcoin Core</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>Erro: O diretório especificado "%1" não pode ser criado.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Erro</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>GB de espaço livre</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>(de %1GB necessário)</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Abrir URl</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Abrir pedido de pagamento de URl ou ficheiro</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URl:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Seleccionar ficheiro com pedido pagamento</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Seleccionar ficheiro com pedido pagamento para abrir</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>Opções</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>Principal</translation>
+        <translation>&amp;Principal</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
+        <translation>Taxa de transacção opcional por KB que ajuda a assegurar que as suas transacções serão processadas rapidamente. A maioria das transacções tem 1 kB.</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>Pagar taxa de &amp;transação</translation>
+        <translation>Pagar &amp;taxa de transacção</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Automatically start Potcoin after logging in to the system.</source>
-        <translation>Iniciar Potcoin automaticamente após se logar no sistema.</translation>
+        <translation>Começar o Potcoin automaticamente ao iniciar sessão o sistema.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Start Potcoin on system login</source>
-        <translation>Iniciar Potcoin no login do sistema</translation>
+        <translation>&amp;Começar o Potcoin ao iniciar o sistema</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <source>Size of &amp;database cache</source>
+        <translation>Tamanho e cache de base de dados</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Numero de scripts &amp; processos de verificação</translation>
+    </message>
+    <message>
+        <source>Connect to the Potcoin network through a SOCKS proxy.</source>
+        <translation>Ligar à rede Potcoin através de SOCKS proxy</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
+        <translation>&amp;Ligar através de SOCKS proxy ( defeito proxy):</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>Endereço de IP do proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>URLs de outrem (ex. um explorador de blocos) que aparece no separador de transações como itens do menu de contexto. %s do URL é substituído por hash de transacção. Vários URLs são separados por barra vertical |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>URLs de transação de outrem</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Opções de linha de comandos activas que reescrevem as opções acima.</translation>
+    </message>
+    <message>
         <source>Reset all client options to default.</source>
-        <translation>Redefinir todas as opções do cliente para opções padrão.</translation>
+        <translation>Repôr todas as opções de origem.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Redefinir opções</translation>
+        <translation>&amp;Repor Opções</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Network</source>
-        <translation>Rede</translation>
+        <translation>&amp;Rede</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+        <translation>(0 = auto, &lt;0 = Deixar essa quantidade de núcleos livre)</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>&amp;Carteira</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Especialista</translation>
+    </message>
+    <message>
+        <source>Enable coin &amp;control features</source>
+        <translation>Activar funcionalidades de &amp;controlo de moeda</translation>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>Se desligar o gasto de trocos não gastos, o troco da transacção não poderá ser utilizado até que a transacção tenha pelo menos uma confirmação. Isto também afecta o calculo do seu balanço. </translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;Gastar troco não confirmado</translation>
+    </message>
+    <message>
         <source>Automatically open the Potcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir as portas do cliente Potcoin automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
+        <translation>Abrir a porta do cliente potcoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear porta usando &amp;UPnP</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Connect to the Potcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectar à rede Potcoin através de um proxy SOCKS (ex. quando estiver usando através do Tor)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Conectar através de um proxy SOCKS:</translation>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation>&amp;IP do proxy:</translation>
+        <translation>Proxy &amp;IP:</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>Endereço &amp;IP do proxy (ex. 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
         <translation>&amp;Porta:</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Porta do serviço de proxy (ex. 9050)</translation>
+        <translation>Porta do proxy (p.ex. 9050)</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation>&amp;Versão do SOCKS:</translation>
+        <translation>&amp;Versão SOCKS:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>Versão do proxy SOCKS (ex. 5)</translation>
+        <translation>Versão do proxy SOCKS (p.ex. 5)</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>&amp;Window</source>
         <translation>&amp;Janela</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Mostrar apenas um ícone na bandeja ao minimizar a janela.</translation>
+        <translation>Apenas mostrar o ícone da bandeja após minimizar a janela.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimizar para a bandeja em vez da barra de tarefas.</translation>
+        <translation>Minimizar para a bandeja em vez da barra de tarefas</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimizar em vez de sair do aplicativo quando a janela for fechada. Quando esta opção é escolhida, o aplicativo só será fechado selecionando Sair no menu Arquivo.</translation>
+        <translation>Minimize ao invés de sair da aplicação quando a janela é fechada. Com esta opção selecionada, a aplicação apenas será encerrada quando selecionar o butão "sair" da aplicação no menú.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimizar ao sair</translation>
+        <translation>&amp;Minimizar ao fecha</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;Mostrar</translation>
+        <translation>&amp;Visualização</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>&amp;Língua da interface com usuário:</translation>
+        <translation>&amp;Linguagem da interface de utilizador:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Potcoin.</source>
-        <translation>A língua da interface com usuário pode ser escolhida aqui. Esta configuração só surtirá efeito após reiniciar o Potcoin.</translation>
+        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar a sua carteira Potcoin.</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unidade usada para mostrar quantidades:</translation>
+        <translation>&amp;Unidade a usar em quantias:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar potcoins.</translation>
+        <translation>Escolha a subdivisão unitária a ser mostrada por defeito na aplicação e ao enviar moedas.</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Whether to show Potcoin addresses in the transaction list or not.</source>
-        <translation>Mostrar ou não endereços Potcoin na lista de transações.</translation>
+        <translation>Se mostrar, ou não, os endereços Potcoin na lista de transacções.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>Mostrar en&amp;dereços na lista de transações</translation>
+        <translation>&amp;Mostrar endereços na lista de transações</translation>
     </message>
     <message>
-        <location line="+71"/>
+        <source>Whether to show coin control features or not.</source>
+        <translation>Mostrar ou não as ferramentas de controlo de moeda.</translation>
+    </message>
+    <message>
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Cancelar</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>&amp;Aplicar</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
         <translation>padrão</translation>
     </message>
     <message>
-        <location line="+130"/>
+        <source>none</source>
+        <translation>Nenhum</translation>
+    </message>
+    <message>
         <source>Confirm options reset</source>
-        <translation>Confirmar redefinição de opções</translation>
+        <translation>Confirmar redefinir as opções</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation>Algumas configurações requerem reinicialização para surtirem efeito.</translation>
+        <source>Client restart required to activate changes.</source>
+        <translation>Recomeço do cliente é necessário para activar as mudanças</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation>Você quer continuar?</translation>
+        <source>Client will be shutdown, do you want to proceed?</source>
+        <translation>O cliente vai fechar, tem a certeza?</translation>
     </message>
     <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>Cuidado</translation>
+        <source>This change would require a client restart.</source>
+        <translation>Esta mudança requer o reiniciar da carteira </translation>
     </message>
     <message>
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting Potcoin.</source>
-        <translation>Esta configuração surtirá efeito após reinicializar o aplicativo Potcoin</translation>
-    </message>
-    <message>
-        <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>O endereço proxy fornecido é inválido.</translation>
+        <translation>O endereço de proxy introduzido é inválido.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Formulário</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Potcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede Potcoin depois que a conexão é estabelecida, mas este processo pode não estar completo ainda.</translation>
+        <translation>A informação mostrada poderá estar desactualizada. A sua carteira sincroniza automaticamente com a rede Potcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
-        <location line="-124"/>
-        <source>Balance:</source>
-        <translation>Saldo:</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation>Não confirmadas:</translation>
-    </message>
-    <message>
-        <location line="-78"/>
         <source>Wallet</source>
         <translation>Carteira</translation>
     </message>
     <message>
-        <location line="+107"/>
+        <source>Available:</source>
+        <translation>Disponível:</translation>
+    </message>
+    <message>
+        <source>Your current spendable balance</source>
+        <translation>O seu balanço disponível:</translation>
+    </message>
+    <message>
+        <source>Stake:</source>
+        <translation>Gerado:</translation>
+    </message>
+    <message>
+        <source>Total of coins that were staked and do not yet count toward the current balance</source>
+        <translation>Numero de moedas geradas não disponíveis no saldo total.</translation>
+    </message>
+    <message>
+        <source>Pending:</source>
+        <translation>Pendente:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>Numero total de transações que ainda estão para ser confirmadas, mas que ainda não contam como balanço disponível.</translation>
+    </message>
+    <message>
         <source>Immature:</source>
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>Saldo minerado que ainda não maturou</translation>
+        <translation>O saldo gerado ainda não maturou</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <source>Total:</source>
+        <translation>Total:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>O seu balanço total actual:</translation>
+    </message>
+    <message>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Transações recentes&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Transacções recentes &lt;/ b&gt;</translation>
     </message>
     <message>
-        <location line="-101"/>
-        <source>Your current balance</source>
-        <translation>Seu saldo atual</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Total de transações ainda não confirmadas, e que ainda não contam no saldo atual</translation>
-    </message>
-    <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
         <source>out of sync</source>
-        <translation>fora de sincronia</translation>
+        <translation>fora da sincronização</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
+        <source>URI handling</source>
+        <translation> Conexão URl </translation>
+    </message>
+    <message>
+        <source>URI can not be parsed! This can be caused by an invalid Potcoin address or malformed URI parameters.</source>
+        <translation>URl não pode ser utilizada! Pode ser causada por Potcoin endereço inválido ou por parametros mal formados URl</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Quantia de pagamentos pedidos %1 é demasiado pequena (considerada pó)</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Erro de pagamento</translation>
+    </message>
+    <message>
         <source>Cannot start potcoin: click-to-pay handler</source>
-        <translation>Não foi possível iniciar potcoin: manipulador clique-para-pagar</translation>
+        <translation>Impossível começar Potcoin: click-to-pay handler</translation>
+    </message>
+    <message>
+        <source>Net manager warning</source>
+        <translation>Aviso de gestor de rede </translation>
+    </message>
+    <message>
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>O seu proxy activo não suporta SOCKS5, o que é necessário para pedidos de pagamentos.</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Pedido de pagamentos URl é invalido: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Ficheiro de pedidos de pagamentos</translation>
+    </message>
+    <message>
+        <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
+        <translation>Ficheiro de pedido de pagamento não pode ser lido ou processado! Apenas pode ser causado por um pedido inválido pagamento.</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>Pedido de pagamentos não verificados para scripts de pagamento não suportados.</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Ajusto de %1</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>Erro de comunicação de %1: %2</translation>
+    </message>
+    <message>
+        <source>Payment request can not be parsed or processed!</source>
+        <translation>O pedido de pagamento não pode ser atendido ou processado!</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>Má resposta do servidor %1</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>Pagamento percepcionado</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>Erro de pedido à rede</translation>
     </message>
 </context>
 <context>
-    <name>QRCodeDialog</name>
+    <name>QObject</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation>Janela do código QR</translation>
+        <source>Potcoin Core</source>
+        <translation>Potcoin Core</translation>
     </message>
     <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>Requisitar Pagamento</translation>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Erro: Directório especificado "%1" não existe</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>Quantia:</translation>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>Erro: Não é possível analisar arquivos de configuração: %1. Só use a chave = valor sintaxe.</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>Etiqueta:</translation>
+        <source>Error: Invalid combination of -regtest and -testnet.</source>
+        <translation>Erro: combinação inválida de -regtest e -testnet.</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>Mensagem:</translation>
+        <source>Potcoin Core didn't yet exit safely...</source>
+        <translation>Potcoin Core ainda não saiu com segurança ...</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;Salvar como...</translation>
+        <source>Enter a Potcoin address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>Introduza um endereço Potcoin  (p. ex. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Guardar imagem...</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>Erro ao codigicar o URI em código QR</translation>
+        <source>&amp;Copy Image</source>
+        <translation>&amp;Copiar imagem</translation>
     </message>
     <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation>A quantidade digitada é inválida, favor verificar.</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>URI resultante muito longa. Tente reduzir o texto do rótulo ou da mensagem.</translation>
-    </message>
-    <message>
-        <location line="+25"/>
         <source>Save QR Code</source>
-        <translation>Salvar código QR</translation>
+        <translation>Gravar QR Code</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation>Imagens PNG (*.png)</translation>
+        <source>PNG Image (*.png)</source>
+        <translation>Imagem PNG (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
         <source>Client name</source>
-        <translation>Nome do cliente</translation>
+        <translation>Nome do Cliente</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
         <source>N/A</source>
-        <translation>N/A</translation>
+        <translation>N/D</translation>
     </message>
     <message>
-        <location line="-217"/>
         <source>Client version</source>
         <translation>Versão do cliente</translation>
     </message>
     <message>
-        <location line="-45"/>
         <source>&amp;Information</source>
         <translation>&amp;Informação</translation>
     </message>
     <message>
-        <location line="+68"/>
+        <source>Debug window</source>
+        <translation>Janela de depuração</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>Geral</translation>
+    </message>
+    <message>
         <source>Using OpenSSL version</source>
-        <translation>Usando OpenSSL versão</translation>
+        <translation>Usando versão OpenSSL</translation>
     </message>
     <message>
-        <location line="+49"/>
         <source>Startup time</source>
-        <translation>Horário de inicialização</translation>
+        <translation>Tempo de início</translation>
     </message>
     <message>
-        <location line="+29"/>
         <source>Network</source>
         <translation>Rede</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Name</source>
+        <translation>Nome</translation>
+    </message>
+    <message>
         <source>Number of connections</source>
         <translation>Número de conexões</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation>Na rede de teste</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Block chain</source>
-        <translation>Corrente de blocos</translation>
+        <translation>Cadeia de blocos</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Current number of blocks</source>
-        <translation>Quantidade atual de blocos</translation>
+        <translation>Número actual de blocos</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation>Total estimado de blocos</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Last block time</source>
-        <translation>Horário do último bloco</translation>
+        <translation>Data do último bloco</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>&amp;Open</source>
         <translation>&amp;Abrir</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation>Opções da linha de comando</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show the Potcoin-Qt help message to get a list with possible Potcoin command-line options.</source>
-        <translation>Mostrar mensagem de ajuda do Potcoin-Qt para obter uma lista com possíveis opções da linha de comando do Potcoin.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation>&amp;Mostrar</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>&amp;Console</source>
-        <translation>&amp;Console</translation>
+        <translation>&amp;Consola</translation>
     </message>
     <message>
-        <location line="-260"/>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Trafico de Rede</translation>
+    </message>
+    <message>
+        <source>&amp;Clear</source>
+        <translation>&amp;Limpar</translation>
+    </message>
+    <message>
+        <source>Totals</source>
+        <translation>Totais</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>Entrada:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Saida:</translation>
+    </message>
+    <message>
         <source>Build date</source>
-        <translation>Data do &apos;build&apos;</translation>
+        <translation>Data de construção</translation>
     </message>
     <message>
-        <location line="-104"/>
-        <source>Potcoin - Debug window</source>
-        <translation>Potcoin - Janela de Depuração</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Potcoin Core</source>
-        <translation>Núcleo Potcoin</translation>
-    </message>
-    <message>
-        <location line="+279"/>
         <source>Debug log file</source>
-        <translation>Arquivo de log de Depuração</translation>
+        <translation>Ficheiro de registo de depuração</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Open the Potcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir o arquivo de log de depuração do Potcoin do diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
+        <translation>Abrir o ficheiro de registo de depuração da pasta de dados actual. Isto pode demorar alguns segundos para ficheiros de registo maiores.</translation>
     </message>
     <message>
-        <location line="+102"/>
         <source>Clear console</source>
-        <translation>Limpar console</translation>
+        <translation>Limpar consola</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Potcoin RPC console.</source>
-        <translation>Bem-vindo ao console Potcoin RPC.</translation>
+        <translation>Bem-vindo à consola RPC Potcoin.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Use as setas para cima e para baixo para navegar pelo histórico, e &lt;b&gt;Ctrl-L&lt;/b&gt; para limpar a tela.</translation>
+        <translation>Use as setas para cima e para baixo para navegar no histórico e &lt;b&gt; Ctrl-L &lt;/b&gt; para limpar o ecrã.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Digite &lt;b&gt;help&lt;/b&gt; para uma visão geral dos comandos disponíveis.</translation>
+        <translation>Digite &lt;b&gt; help &lt;/b&gt; para visualizar os comandos disponíveis.</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+        <source>%1 h %2 m</source>
+        <translation>%1 h %2 m</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Quantia</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Rótulo</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;Mensagem</translation>
+    </message>
+    <message>
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Reutilize um dos endereços de recepção anteriores. Reutilização dos endereços cria problemas de segurança e privacidade. Não utilize esta função, apenas na excepção de pagamentos feitos anteriormente.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>&amp;Reutilizar um endereço já existente (não recomendado)</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Potcoin network.</source>
+        <translation>Uma mensagem opcional para enviar um pagamento em anexo, que será disponibilizado quando o pedido abrir. Nota: Esta mensagem não é enviada pela rede Potcoin</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation>Um rótulo opcional para associar com o novo endereço de recepção,</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>Utilizar este formulário para pedidos de pagamentos. Todos os campos são &lt;b&gt;opcionais&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>Uma quantia opcional é pedida. Deixe este campo vazio ou zero para não especificar a quantia.</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Limpar todos os campos do formulário.</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Limpar</translation>
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation>Pedido do histórico de pagamentos</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>&amp;Pedido de pagamentos</translation>
+    </message>
+    <message>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation>Mostrar os pedidos selecionados (o mesmo que clicar 2 vezes na entrada)</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Mostrar</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>Remover da lista a Entrada selecionada </translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Remover</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copiar rótulo</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Copiar mensagem</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copiar quantia</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QR Code</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation>Copiar &amp; URl</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>Copiar &amp;Endereço</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Guardar imagem...</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>Pedir pagamento de %1</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>Informação de Pagamentos</translation>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation>URl</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Endereço</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Quantia</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Rótulo</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensagem</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>Resultado URl demasiado longa, tente reduzir o texto da mensagem.</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Erro ao codificar URl into QR Code.</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Rótulo</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Mensagem</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Quantia</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(sem rótulo)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>(sem mensagem)</translation>
+    </message>
+    <message>
+        <source>(no amount)</source>
+        <translation>(sem quantia)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Enviar dinheiro</translation>
+        <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <source>Coin Control Features</source>
+        <translation>Ferramentas de controlo de moeda</translation>
+    </message>
+    <message>
+        <source>Inputs...</source>
+        <translation>Entradas...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>Selecção automática</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>Upssss... Fundos Insuficientes!</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Quantidade:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Bytes:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Quantia:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Prioridade:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Taxa</translation>
+    </message>
+    <message>
+        <source>Low Output:</source>
+        <translation>Saídas baixas:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Depois de taxas:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Troco:</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>Se esta função estiver activada, mas o endereço de pagamento estiver vazio ou for inválido, o troco será criado um novo endereço.</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>Mudança de endereço personalizada</translation>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Enviar para vários destinatários de uma só vez</translation>
+        <translation>Enviar para múltiplos destinatários de uma vez</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>Adicionar destinatário</translation>
+        <translation>Adicionar &amp;Destinatário</translation>
     </message>
     <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation>Remover todos os campos da transação</translation>
+        <source>Clear all fields of the form.</source>
+        <translation>Limpar todos os campos do formulário.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>Limpar Tudo</translation>
+        <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Balance:</source>
         <translation>Saldo:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Confirmar o envio</translation>
+        <translation>Confirme acção de envio</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>Enviar</translation>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; para %2 (%3)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Confirmar envio de dinheiro</translation>
+        <translation>Confirme envio de moedas</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>Você tem certeza que deseja enviar %1?</translation>
+        <source>%1 to %2</source>
+        <translation>%1 para %2</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation>e</translation>
+        <source>Copy quantity</source>
+        <translation>Copiar quantidade</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <source>Copy amount</source>
+        <translation>Copiar quantia</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Copiar Taxa</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Copiar depois da taxa</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Copiar bytes</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>Copiar prioridade</translation>
+    </message>
+    <message>
+        <source>Copy low output</source>
+        <translation>Copiar baixas saidas</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Copiar troco</translation>
+    </message>
+    <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Quantia total %1 (=%2)</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>ou</translation>
+    </message>
+    <message>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>O endereço do destinatário não é válido, favor verificar.</translation>
+        <translation>O endereço de destino não é válido, por favor verifique.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>A quantidade a ser paga precisa ser maior que 0.</translation>
+        <translation>A quantia a pagar deverá ser maior que 0.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>A quantidade excede seu saldo.</translation>
+        <translation>A quantia excede o seu saldo.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>O total excede seu saldo quando uma taxa de transação de %1 é incluída.</translation>
+        <translation>O total excede o seu saldo quando a taxa de transacção de %1 for incluída.</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Endereço duplicado: pode-se enviar para cada endereço apenas uma vez por transação.</translation>
+        <translation>Endereço duplicado encontrado, apenas poderá enviar uma vez para cada endereço por cada operação de envio.</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation>Erro: Criação da transação falhou!</translation>
+        <source>Transaction creation failed!</source>
+        <translation>Criação de transacção falhou!</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos potcoins de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns potcoins foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>A transação foi rejeitada! Isto pode ter ocorrido se algumas das suas moedas na sua carteira já tivessem sido gastas. Como por exemplo através da cópia do ficheiro wallet.dat onde foram gastas mas não marcadas neste ficheiro.</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Potcoin address</source>
+        <translation>Aviso:  Potcoin endereço inválido</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(sem rótulo)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>Atenção: Endereço de troco desconhecido</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Tem a certeza que quer enviar?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>Adicionado como taxa de transferência.</translation>
+    </message>
+    <message>
+        <source>Payment request expired</source>
+        <translation>Pedido de pagamento expirou</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Pagamento inválido %1</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
-        <source>Form</source>
-        <translation>Formulário</translation>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>Q&amp;uantidade:</translation>
+        <translation>&amp;Quantia:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>Pagar &amp;Para:</translation>
+        <translation>&amp;Pagar A:</translation>
     </message>
     <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (starts with P)</source>
-        <translation>O endereço para onde enviar o pagamento (starts with P)</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Digite uma etiqueta para este endereço para adicioná-lo ao catálogo de endereços</translation>
+        <translation>Escreva um rótulo para este endereço para o adicionar ao seu livro de endereços</translation>
     </message>
     <message>
-        <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>&amp;Etiqueta:</translation>
+        <translation>&amp;Rótulo</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation>Escolha um endereço do seu catálogo</translation>
+        <source>Choose previously used address</source>
+        <translation>Escolha previamente um dos endereços utilizados.</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>This is a normal payment.</source>
+        <translation>Este é um pagamento normal.</translation>
+    </message>
+    <message>
+        <source>The Potcoin address to send the payment to (e.g. Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</source>
+        <translation>O endereço Potcoin para onde enviar o pagamento  (p.ex. Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</translation>
+    </message>
+    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Colar o endereço da área de transferência</translation>
+        <translation>Cole endereço da área de transferência</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>Remover este destinatário</translation>
+        <source>Remove this entry</source>
+        <translation>Remova esta entrada</translation>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Potcoin address (starts with P)</source>
-        <translation>Digite um endereço Potcoin (starts with P)</translation>
+        <source>Message:</source>
+        <translation>Mensagem:</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the potcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Potcoin network.</source>
+        <translation>A mensagem que estava anexada à potcoin: URl que é armazenada com a transação para a sua referencia. Nota: esta mensagem não será enviada dentro da rede Potcoin</translation>
+    </message>
+    <message>
+        <source>This is a verified payment request.</source>
+        <translation>Este é um pedido de verificação de pagamento.</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Insira um rotulo para este endereço para que possa ser adicionado à lista de endereços.</translation>
+    </message>
+    <message>
+        <source>This is an unverified payment request.</source>
+        <translation>Este é um pedido de pagamento não verificado.</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Pagar a:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>Memo:</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Potcoin Core is shutting down...</source>
+        <translation>O Potcoin Core está a encerrar...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Não desligue o computador enquanto esta janela não desaparecer.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Assinaturas - Assinar / Verificar uma mensagem</translation>
+        <translation>Assinaturas - Assinar / Verificar uma Mensagem</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Sign Message</source>
         <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Você pode assinar mensagens com seus endereços para provar que você é o dono deles. Seja cuidadoso para não assinar algo vago, pois ataques de pishing podem tentar te enganar para dar sua assinatura de identidade para eles. Apenas assine afirmações completamente detalhadas com as quais você concorda.</translation>
+        <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção ao assinar mensagens ambíguas, pois ataques de phishing podem tentar enganá-lo, de modo a assinar a sua identidade para os atacantes. Apenas assine declarações completamente detalhadas com as quais concorde.</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>The address to sign the message with (starts with P)</source>
-        <translation>Endereço a ser usado para assinar a mensagem (starts with P)</translation>
+        <source>The Potcoin address to sign the message with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>O endereço Potcoin a utilizar para assinar a mensagem (p.ex. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+213"/>
-        <source>Choose an address from the address book</source>
-        <translation>Escolha um endereço do catálogo</translation>
+        <source>Choose previously used address</source>
+        <translation>Escolha previamente um dos endereços utilizados.</translation>
     </message>
     <message>
-        <location line="-203"/>
-        <location line="+213"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Colar o endereço da área de transferência</translation>
+        <translation>Cole endereço da área de transferência</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Entre a mensagem que você quer assinar aqui</translation>
+        <translation>Escreva aqui a mensagem que deseja assinar</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Signature</source>
         <translation>Assinatura</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Copiar a assinatura para a área de transferência do sistema</translation>
+        <translation>Copiar a assinatura actual para a área de transferência</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Sign the message to prove you own this Potcoin address</source>
-        <translation>Assinar mensagem para provar que você é dono deste endereço Potcoin</translation>
+        <translation>Assine uma mensagem para provar que é dono deste endereço Potcoin</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sign &amp;Message</source>
         <translation>Assinar &amp;Mensagem</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all sign message fields</source>
-        <translation>Limpar todos os campos de assinatura da mensagem</translation>
+        <translation>Repor todos os campos de assinatura de mensagem</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>Limpar Tudo</translation>
+        <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <location line="-87"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verificar Mensagem</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Forneça o endereço da assinatura, a mensagem (se assegure que você copiou quebras de linha, espaços, tabs, etc. exatamente) e a assinatura abaixo para verificar a mensagem. Cuidado para não ler mais na assinatura do que está escrito na mensagem propriamente, para evitar ser vítima de uma ataque do tipo &quot;man-in-the-middle&quot;.</translation>
+        <translation>Introduza o endereço de assinatura, mensagem (assegure-se de copiar quebras de linha, espaços, tabuladores, etc. exactamente) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>The address the message was signed with (starts with P)</source>
-        <translation>O endereço usado para assinar a mensagem (starts with P)</translation>
+        <source>The Potcoin address the message was signed with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>O endereço Potcoin utilizado para assinar a mensagem (p.ex. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
     <message>
-        <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Potcoin address</source>
-        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Potcoin específico.</translation>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Potcoin especificado</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation>Verificar %Mensagem</translation>
+        <translation>Verificar &amp;Mensagem</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation>Limpar todos os campos de assinatura da mensagem</translation>
+        <translation>Repôr todos os campos de verificação de mensagem</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a Potcoin address (starts with P)</source>
-        <translation>Digite um endereço Potcoin (starts with P)</translation>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Clique "Assinar mensagem" para gerar a assinatura</translation>
     </message>
     <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Clique em &quot;Assinar Mensagem&quot; para gerar a assinatura</translation>
+        <source>Enter a Potcoin address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>Introduza um endereço Potcoin  (p. ex. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Enter Potcoin signature</source>
-        <translation>Entre com a assinatura Potcoin</translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation>O endereço fornecido é inválido.</translation>
+        <translation>O endereço introduzido é inválido.</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+8"/>
-        <location line="+73"/>
-        <location line="+8"/>
         <source>Please check the address and try again.</source>
-        <translation>Por favor, verifique o endereço e tente novamente.</translation>
+        <translation>Por favor verifique o endereço e tente de novo.</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
-        <translation>O endereço fornecido não se refere a uma chave.</translation>
+        <translation>O endereço introduzido não se refere a uma chave.</translation>
     </message>
     <message>
-        <location line="-73"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Destravamento da Carteira foi cancelado.</translation>
+        <translation>O desbloqueio da carteira foi cancelado.</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
-        <translation>A chave privada para o endereço fornecido não está disponível.</translation>
+        <translation>A chave privada para o endereço introduzido não está disponível.</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Message signing failed.</source>
-        <translation>Assinatura da mensagem falhou.</translation>
+        <translation>Assinatura de mensagem falhou.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Message signed.</source>
         <translation>Mensagem assinada.</translation>
     </message>
     <message>
-        <location line="+59"/>
         <source>The signature could not be decoded.</source>
-        <translation>A assinatura não pode ser decodificada.</translation>
+        <translation>A assinatura não pôde ser descodificada.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation>Por favor, verifique a assinatura e tente novamente.</translation>
+        <translation>Por favor verifique a assinatura e tente de novo.</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>The signature did not match the message digest.</source>
-        <translation>A assinatura não corresponde ao &quot;resumo da mensagem&quot;.</translation>
+        <translation>A assinatura não condiz com o conteúdo da mensagem.</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Message verification failed.</source>
         <translation>Verificação da mensagem falhou.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Message verified.</source>
         <translation>Mensagem verificada.</translation>
     </message>
@@ -1647,186 +2183,160 @@ Endereço: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Potcoin developers</source>
-        <translation>Desenvolvedores do Potcoin</translation>
+        <source>Potcoin Core</source>
+        <translation>Potcoin Core</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>The Potcoin Core developers</source>
+        <translation>Os programadores Potcoin Core</translation>
+    </message>
+    <message>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
 </context>
 <context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+    </message>
+</context>
+<context>
     <name>TransactionDesc</name>
     <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
         <source>Open until %1</source>
         <translation>Aberto até %1</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>conflicted</source>
+        <translation>Conflito</translation>
+    </message>
+    <message>
         <source>%1/offline</source>
-        <translation>%1/offline</translation>
+        <translation>%1/desligado</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/não confirmadas</translation>
+        <translation>%1/não confirmada</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1 confirmations</source>
         <translation>%1 confirmações</translation>
     </message>
     <message>
-        <location line="+18"/>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>Estado</translation>
     </message>
     <message numerus="yes">
-        <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, difundir atráves de %n nó</numerusform><numerusform>, difundir atráves de %n nós</numerusform></translation>
+        <translation><numerusform>, transmitida através de %n nó(s)</numerusform><numerusform>, transmitida através de %n nós</numerusform></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Source</source>
-        <translation>Fonte</translation>
+        <translation>Origem</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Generated</source>
-        <translation>Gerados</translation>
+        <translation>Gerado</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <location line="+17"/>
         <source>From</source>
         <translation>De</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
         <source>To</source>
         <translation>Para</translation>
     </message>
     <message>
-        <location line="-77"/>
-        <location line="+2"/>
         <source>own address</source>
-        <translation>seu próprio endereço</translation>
+        <translation>endereço próprio</translation>
     </message>
     <message>
-        <location line="-2"/>
         <source>label</source>
-        <translation>etiqueta</translation>
+        <translation>rótulo</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
         <source>Credit</source>
         <translation>Crédito</translation>
     </message>
     <message numerus="yes">
-        <location line="-102"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>matura em mais %n bloco</numerusform><numerusform>matura em mais %n blocos</numerusform></translation>
+        <translation><numerusform>matura em mais %n blocos</numerusform><numerusform>matura em mais %n blocos</numerusform></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>not accepted</source>
-        <translation>não aceito</translation>
+        <translation>não aceite</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
         <source>Debit</source>
         <translation>Débito</translation>
     </message>
     <message>
-        <location line="-39"/>
         <source>Transaction fee</source>
-        <translation>Taxa de transação</translation>
+        <translation>Taxa de transacção</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>Net amount</source>
         <translation>Valor líquido</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Message</source>
         <translation>Mensagem</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Comment</source>
         <translation>Comentário</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transaction ID</source>
-        <translation>ID da transação</translation>
+        <translation>ID da Transacção</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Potcoins gerados precisam maturar por 120 blocos antes de serem gastos. Quando você gera este bloco, ele é difundido na rede para ser adicionado ao blockchain. Se ele falhar ao ser acrescentado no blockchain, seu estado mudará para &quot;não aceito&quot; e não poderá ser gasto. Isso pode ocasionamente acontecer se outro nó gerou um bloco poucos segundos antes do seu.</translation>
+        <source>Merchant</source>
+        <translation>Mercante</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>As moedas geradas devem de maturar %1 blocos antes de poderem ser gastas. Quando gera este bloco, este é enviado para toda a rede Potcoin e adicionado à rede cadeia de blocos. Se falhar a entrada na cadeia de blocos, o seu estado vai passar para "não aceite" e não ficará disponível para gastar. Isto poderá acontecer ocasionalmente se outro nodo gerar um bloco com diferença de alguns segundos do seu.</translation>
+    </message>
+    <message>
         <source>Debug information</source>
         <translation>Informação de depuração</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Transaction</source>
         <translation>Transação</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Inputs</source>
         <translation>Entradas</translation>
     </message>
     <message>
-        <location line="+23"/>
         <source>Amount</source>
-        <translation>Quantidade</translation>
+        <translation>Quantia</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>true</source>
         <translation>verdadeiro</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>false</source>
         <translation>falso</translation>
     </message>
     <message>
-        <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, ainda não foi propagada na rede com sucesso.</translation>
+        <translation>, ainda não foi transmitida com sucesso</translation>
     </message>
     <message numerus="yes">
-        <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Abrir para mais %n bloco</numerusform><numerusform>Abrir para mais %n blocos</numerusform></translation>
+        <translation><numerusform>Aberta por mais %n blocos</numerusform><numerusform>Aberta por mais %n blocos</numerusform></translation>
     </message>
     <message>
-        <location line="+70"/>
         <source>unknown</source>
         <translation>desconhecido</translation>
     </message>
@@ -1834,468 +2344,376 @@ Endereço: %4</translation>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
         <translation>Detalhes da transação</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Este painel mostra uma descrição detalhada da transação</translation>
+        <translation>Esta janela mostra uma descrição detalhada da transacção</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Type</source>
         <translation>Tipo</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
         <translation>Endereço</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Amount</source>
-        <translation>Quantidade</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+57"/>
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Abrir para mais %n bloco</numerusform><numerusform>Abrir para mais %n blocos</numerusform></translation>
+        <translation>Quantia</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Não maturadas (%1 confirmações, estarão disponíveis depois %2)</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Aberta por mais %n blocos</numerusform><numerusform>Aberta por mais %n blocos</numerusform></translation>
+    </message>
+    <message>
         <source>Open until %1</source>
         <translation>Aberto até %1</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation>Offline (%1 confirmações)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Não confirmado (%1 of %2 confirmações)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Confirmado (%1 confirmações)</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>Saldo minerado vai estar disponível quando ele maturar em mais %n bloco</numerusform><numerusform>Saldo minerado vai estar disponível quando ele maturar em mais %n blocos</numerusform></translation>
+        <translation>Confirmada (%1 confirmação)</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Este bloco não foi recebido por nenhum outro participante da rede e provavelmente não será aceito!</translation>
+        <translation>Este bloco não foi recebido por outros nós e provavelmente não será aceite pela rede!</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Generated but not accepted</source>
-        <translation>Gerado mas não aceito</translation>
+        <translation>Gerado mas não aceite</translation>
     </message>
     <message>
-        <location line="+43"/>
+        <source>Offline</source>
+        <translation>Offline</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Não confirmado</translation>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>Confirmando (%1 de %2 confirmações recomendado)</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>Conflito</translation>
+    </message>
+    <message>
         <source>Received with</source>
-        <translation>Recebido por</translation>
+        <translation>Recebido com</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Received from</source>
         <translation>Recebido de</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sent to</source>
         <translation>Enviado para</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>Pagamento para você mesmo</translation>
+        <translation>Pagamento ao próprio</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Mined</source>
-        <translation>Minerado</translation>
+        <source>Generated</source>
+        <translation>Gerado</translation>
     </message>
     <message>
-        <location line="+38"/>
         <source>(n/a)</source>
-        <translation>(n/a)</translation>
+        <translation>(n/d)</translation>
     </message>
     <message>
-        <location line="+199"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Status da transação. Passe o mouse sobre este campo para mostrar o número de confirmações.</translation>
+        <translation>Estado da transacção. Pairar por cima deste campo para mostrar o número de confirmações.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Data e hora em que a transação foi recebida.</translation>
+        <translation>Data e hora a que esta transacção foi recebida.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>Tipo de transação.</translation>
+        <translation>Tipo de transacção.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>Endereço de destino da transação.</translation>
+        <translation>Endereço de destino da transacção.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Quantidade debitada ou creditada ao saldo.</translation>
+        <translation>Quantia retirada ou adicionada ao saldo.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+52"/>
-        <location line="+16"/>
         <source>All</source>
-        <translation>Todos</translation>
+        <translation>Todas</translation>
     </message>
     <message>
-        <location line="-15"/>
         <source>Today</source>
         <translation>Hoje</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This week</source>
         <translation>Esta semana</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This month</source>
         <translation>Este mês</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Last month</source>
         <translation>Mês passado</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This year</source>
         <translation>Este ano</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Range...</source>
-        <translation>Intervalo...</translation>
+        <translation>Período...</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Received with</source>
-        <translation>Recebido por</translation>
+        <translation>Recebida com</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Sent to</source>
-        <translation>Enviado para</translation>
+        <translation>Enviada para</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>To yourself</source>
-        <translation>Para você mesmo</translation>
+        <translation>Para si</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Mined</source>
-        <translation>Minerado</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Other</source>
-        <translation>Outro</translation>
+        <translation>Outras</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Procure um endereço ou etiqueta</translation>
+        <translation>Escreva endereço ou rótulo a procurar</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Min amount</source>
-        <translation>Quantidade mínima</translation>
+        <translation>Quantia mínima</translation>
     </message>
     <message>
-        <location line="+34"/>
         <source>Copy address</source>
-        <translation>Copiar endereço</translation>
+        <translation>Copiar endereços</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy label</source>
-        <translation>Copiar etiqueta</translation>
+        <translation>Copiar rótulo</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy amount</source>
         <translation>Copiar quantia</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy transaction ID</source>
-        <translation>Copiar ID da transação</translation>
+        <translation>Copiar ID da transacção</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Edit label</source>
-        <translation>Editar etiqueta</translation>
+        <translation>Copiar rótulo</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show transaction details</source>
-        <translation>Mostrar detalhes da transação</translation>
+        <translation>Mostrar detalhes da transacção</translation>
     </message>
     <message>
-        <location line="+139"/>
-        <source>Export Transaction Data</source>
-        <translation>Exportar Dados das Transações</translation>
+        <source>Export Transaction History</source>
+        <translation>Exportar Histórico de Transacções</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Exporting Failed</source>
+        <translation>Falhou a exportação</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Ocorreu um erro enquanto guardava o histórico de transacções para %1</translation>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation>Exportação com Sucesso</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>O histórico de transacções foi gravado com sucesso para %1</translation>
+    </message>
+    <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Arquivo separado por vírgulas (*. csv)</translation>
+        <translation>Ficheiro separado por vírgulas (*.csv)</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <source>Generated</source>
+        <translation>Gerado</translation>
+    </message>
+    <message>
         <source>Confirmed</source>
-        <translation>Confirmado</translation>
+        <translation>Confirmadas</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type</source>
         <translation>Tipo</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Label</source>
-        <translation>Etiqueta</translation>
+        <translation>Rótulo</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Address</source>
         <translation>Endereço</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Amount</source>
-        <translation>Quantidade</translation>
+        <translation>Quantia</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation>Erro ao exportar</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Não foi possível gravar no arquivo %1.</translation>
-    </message>
-    <message>
-        <location line="+100"/>
         <source>Range:</source>
-        <translation>Intervalo: </translation>
+        <translation>Período:</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>to</source>
         <translation>para</translation>
     </message>
 </context>
 <context>
+    <name>WalletFrame</name>
+    <message>
+        <source>No wallet has been loaded.</source>
+        <translation>Nenhuma carteira foi carregada</translation>
+    </message>
+</context>
+<context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Send Coins</translation>
+        <translation>Enviar Moedas</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
-        <location filename="../walletview.cpp" line="+42"/>
         <source>&amp;Export</source>
         <translation>&amp;Exportar</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportar os dados na aba atual para um arquivo</translation>
+        <translation>Exportar os dados para ficheiro</translation>
     </message>
     <message>
-        <location line="+193"/>
         <source>Backup Wallet</source>
-        <translation>Fazer cópia de segurança da Carteira</translation>
+        <translation>Cópia de Segurança da Carteira</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
         <translation>Dados da Carteira (*.dat)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Backup Failed</source>
-        <translation>Cópia de segurança Falhou</translation>
+        <translation>Cópia de Segurança Falhou</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Houve um erro ao tentar salvar os dados da carteira para uma nova localização.</translation>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>Ocorreu um erro enquanto guardava a carteira para %1</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>Os dados da carteira foram guardados com sucesso em %1</translation>
+    </message>
+    <message>
         <source>Backup Successful</source>
-        <translation>Backup feito com sucesso</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The wallet data was successfully saved to the new location.</source>
-        <translation>Os dados da carteira foram salvos com sucesso na nova localização</translation>
+        <translation>Cópia de Segurança Bem Sucedida</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Potcoin version</source>
-        <translation>Versão do Potcoin</translation>
-    </message>
-    <message>
-        <location line="+102"/>
         <source>Usage:</source>
-        <translation>Uso:</translation>
+        <translation>Utilização:</translation>
     </message>
     <message>
-        <location line="-29"/>
-        <source>Send command to -server or potcoind</source>
-        <translation>Enviar comando para -server ou potcoind</translation>
-    </message>
-    <message>
-        <location line="-23"/>
         <source>List commands</source>
-        <translation>Lista de comandos</translation>
+        <translation>Listar comandos</translation>
     </message>
     <message>
-        <location line="-12"/>
         <source>Get help for a command</source>
-        <translation>Obtenha ajuda sobre um comando</translation>
+        <translation>Obter ajuda para um comando</translation>
     </message>
     <message>
-        <location line="+24"/>
         <source>Options:</source>
         <translation>Opções:</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Specify configuration file (default: potcoin.conf)</source>
-        <translation>Especifique um arquivo de configurações (padrão: potcoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: potcoind.pid)</source>
-        <translation>Especifique um arquivo de pid (padrão: potcoind.pid)</translation>
-    </message>
-    <message>
-        <location line="-1"/>
         <source>Specify data directory</source>
-        <translation>Especificar diretório de dados</translation>
+        <translation>Especificar pasta de dados</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Definir o tamanho do cache do banco de dados em megabytes (padrão: 25)</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 4200 or testnet: 14200)</source>
-        <translation>Procurar por conexões em &lt;port&gt; (padrão: 45444 ou testnet:14200)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Manter no máximo &lt;n&gt; conexões aos peers (padrão: 125)</translation>
+        <translation>Manter no máximo &lt;n&gt; ligações a outros nós da rede (por defeito: 125)</translation>
     </message>
     <message>
-        <location line="-48"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Conectar a um nó para receber endereços de participantes, e desconectar.</translation>
+        <translation>Ligar a um nó para recuperar endereços de pares, e desligar</translation>
     </message>
     <message>
-        <location line="+82"/>
         <source>Specify your own public address</source>
-        <translation>Especificar seu próprio endereço público</translation>
+        <translation>Especifique o seu endereço público</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Limite para desconectar peers mal comportados (padrão: 100)</translation>
+        <translation>Tolerância para desligar nós mal-formados (por defeito: 100)</translation>
     </message>
     <message>
-        <location line="-134"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Número de segundos para impedir que peers mal comportados reconectem (padrão: 86400)</translation>
+        <translation>Número de segundos a impedir que nós mal-formados se liguem de novo (por defeito: 86400)</translation>
     </message>
     <message>
-        <location line="-29"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>Um erro ocorreu ao configurar a porta RPC %u para escuta em IPv4: %s</translation>
+        <translation>Ocorreu um erro ao definir a porta %u do serviço RPC a escutar em IPv4: %s</translation>
     </message>
     <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 42000 or testnet: 142000)</source>
-        <translation>Escutar conexões JSON-RPC na porta &lt;porta&gt; (padrão: 42000 ou testnet: 142000)</translation>
-    </message>
-    <message>
-        <location line="+37"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Aceitar linha de comando e comandos JSON-RPC</translation>
+        <translation>Aceitar comandos da consola e JSON-RPC</translation>
     </message>
     <message>
-        <location line="+76"/>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 45443 or testnet: 55443)</source>
+        <translation>Ligar a JSON-RPC na &lt;port&gt; (defeito: 45443 ou testnet: 55443)</translation>
+    </message>
+    <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Rodar em segundo plano como serviço e aceitar comandos</translation>
+        <translation>Correr o processo como um daemon e aceitar comandos</translation>
     </message>
     <message>
-        <location line="+37"/>
         <source>Use the test network</source>
-        <translation>Usar rede de teste</translation>
+        <translation>Utilizar a rede de testes - testnet</translation>
     </message>
     <message>
-        <location line="-112"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Aceitar conexões externas (padrão: 1 se opções -proxy ou -connect não estiverem presentes)</translation>
+        <translation>Aceitar ligações externas (padrão: 1 sem -proxy ou -connect)</translation>
     </message>
     <message>
-        <location line="-80"/>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2305,633 +2723,640 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Potcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Potcoin Alert" admin@foo.com
 </source>
-        <translation>%s, você deve especificar uma senha rpcpassword no arquivo de configuração:⏎
-%s⏎
-É recomendado que você use a seguinte senha aleatória:⏎
-rpcuser=potcoinrpc⏎
-rpcpassword=%s⏎
-(você não precisa lembrar esta senha)⏎
-O nome de usuário e a senha NÃO PODEM ser os mesmos.⏎
-Se o arquivo não existir, crie um com permissão de leitura apenas para o dono.⏎
-É recomendado também definir um alertnotify para que você seja notificado de problemas;⏎
-por exemplo: alertnotify=echo %%s | mail -s &quot;Potcoin Alert&quot; admin@foo.com⏎
+        <translation>%s, deverá definir rpcpassword no ficheiro de configuração :
+ %s
+É recomendado que use a seguinte palavra-passe aleatória:
+rpcuser=potcoinrpc
+rpcpassword=%s
+(não precisa recordar esta palavra-passe)
+O nome de utilizador e password NÃO DEVEM ser iguais.
+Se o ficheiro não existir, crie-o com permissões de leitura apenas para o dono.
+Também é recomendado definir alertnotify para que seja alertado sobre problemas;
+por exemplo: alertnotify=echo %%s | mail -s "Potcoin Alert" admin@foo.com
+
 </translation>
     </message>
     <message>
-        <location line="+17"/>
+        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
+        <translation>Cifras aceites  (defeitot: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
+    </message>
+    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>Um erro ocorreu ao configurar a porta RPC %u para escuta em IPv6, voltando ao IPv4: %s</translation>
+        <translation>Ocorreu um erro ao definir a porta %u do serviço RPC a escutar em IPv6, a usar IPv4: %s</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Vincular ao endereço fornecido e sempre escutar nele. Use a notação [host]:port para IPv6</translation>
+        <translation>Associar a endereço específico e escutar sempre nele. Use a notação [anfitrião]:porta para IPv6</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Potcoin is probably already running.</source>
-        <translation>Não foi possível obter exclusividade de escrita no endereço %s. O Potcoin provavelmente já está rodando.</translation>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation>Entre a regressão para modo teste, que usa uma cadeia especial de blocos que podem ser resolvidos instantaneamente. Isto é requerido para teste de ferramentas para diferentes programadores.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Insira a regressão para modo teste, usa uma cadeia de blocos especial que é resolvida instantaneamente.</translation>
+    </message>
+    <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos potcoins de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns potcoins foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
+        <translation>Erro: A transacção foi rejeitada! Isso poderá acontecer se algumas das moedas na sua carteira já tiverem sido gastas, se por exemplo tiver usado uma cópia do ficheiro wallet.dat e as moedas tiverem sido gastas na cópia mas não tiverem sido marcadas como gastas aqui.</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Erro: Esta transação requer uma taxa de transação de pelo menos %s, por causa sua quantidade, complexidade ou uso de dinheiro recebido recentemente.</translation>
+        <translation>Erro: Esta transacção requer uma taxa de transacção mínima de %s devido á sua quantia, complexidade, ou uso de fundos recebidos recentemente!</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Executar comando quando um alerta relevante for recebido (%s no comando será substituído pela mensagem)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Executar comando quando uma transação da carteira mudar (%s no comando será substituído por TxID)</translation>
+        <translation>Executar comando quando uma das transacções na carteira mudar (no comando, %s é substituído pelo ID da Transacção)</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Determinar tamanho máximo de transações de alta-prioridade/baixa-taxa em bytes (padrão: 27000)</translation>
+        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
+        <translation>O modo -genproclimit controla quantos blocos são generados imediatamente.</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Este pode ser um build de teste pré-lançamento - use por sua conta e risco - não use para mineração ou aplicações de comércio.</translation>
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation>Defina o número de processos de verificação (%u até %d, 0 = automático, &lt;0 = disponibiliza esse número de núcleos livres, por defeito: %d)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <source>Unable to bind to %s on this computer. Potcoin Core is probably already running.</source>
+        <translation>Incapaz de vincular à porta %s neste computador. O Potcoin Core provavelmente já está a correr.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation>Utiliza SOCKS5 proxy separados para alcançar os peers via Tor hidden services (defeito: -proxy)</translation>
+    </message>
+    <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Cuidado: valor de -paytxfee escolhido é muito alto! Este é o valor da taxa de transação que você irá pagar se enviar a transação.</translation>
+        <translation>Atenção: -paytxfee está definida com um valor muito alto! Esta é a taxa que irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Cuidado: Transações mostradas podem não estar corretas! Você pode precisar atualizar, ou outros nós podem precisar atualizar o cliente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Potcoin will not work properly.</source>
+        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o Potcoin não irá funcionar correctamente.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Potcoin will not work properly.</source>
-        <translation>Cuidado: Por favor, verifique que a data e hora do seu computador estão corretas! If o seu relógio estiver errado, o Potcoin não irá funcionar corretamente.</translation>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation>Atenção: A rede não quer concordar! Alguns mineiros estão com problemas nas picaretas.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation>Atenção: Nós não concordamos com os nossos vizinhos! Terá de fazer upgrade, ou outros vizinhos terão.</translation>
+    </message>
+    <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Cuidado: erro ao ler arquivo wallet.dat! Todas as chaves foram lidas corretamente, mas dados transações e do catálogo de endereços podem estar faltando ou estar incorretas.</translation>
+        <translation>Atenção: erro ao ler wallet.dat! Todas as chaves foram lidas correctamente, mas dados de transacção ou do livro de endereços podem estar em falta ou incorrectos.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Aviso: wallet.dat corrompido, dados recuperados! Arquivo wallet.dat original salvo como wallet.{timestamp}.bak em %s; se seu saldo ou transações estiverem incorretos, você deve restauras o backup.</translation>
+        <translation>Atenção: wallet.dat corrompido, dados recuperados! wallet.dat original salvo como wallet.{timestamp}.bak em %s; se o seu saldo ou transacções estiverem incorrectos deverá recuperar uma cópia de segurança.</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <source>(default: 1)</source>
+        <translation>(padrão: 1)</translation>
+    </message>
+    <message>
+        <source>(default: wallet.dat)</source>
+        <translation>(padrão: wallet.dat)</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; pode ser:</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Tentar recuperar chaves privadas de um arquivo wallet.dat corrompido</translation>
+        <translation>Tentar recuperar chaves privadas de um wallet.dat corrupto</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Block creation options:</source>
-        <translation>Opções de criação de blocos:</translation>
+        <translation>Opções de criação de bloco:</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
+        <translation>Limpar lista de transacções (ferramenta diagnostico, implica -rescan)</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
-        <translation>Conectar apenas a nó(s) específico(s)</translation>
+        <translation>Apenas ligar ao(s) nó(s) especificado(s)</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Connect through SOCKS proxy</source>
+        <translation>Ligar por SOCKS proxy</translation>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation>Opções de conexão:</translation>
+    </message>
+    <message>
         <source>Corrupted block database detected</source>
-        <translation>Detectado Banco de dados de blocos corrompido</translation>
+        <translation>Cadeia de blocos corrompida detectada</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Debugging/Testing options:</source>
+        <translation>Depuração/Opções teste:</translation>
+    </message>
+    <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Descobrir os próprios endereços IP (padrão: 1 quando no modo listening e opção -externalip não estiver presente)</translation>
+        <translation>Descobrir endereço IP próprio (padrão: 1 ao escutar sem -externalip)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation>Não abra a carteira e desligue a função RPC calls</translation>
+    </message>
+    <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Você quer reconstruir o banco de dados de blocos agora?</translation>
+        <translation>Deseja reconstruir agora a base de dados de blocos?</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Error initializing block database</source>
-        <translation>Erro ao inicializar banco de dados de blocos</translation>
+        <translation>Erro ao inicializar a cadeia de blocos</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Erro ao inicializar ambiente de banco de dados de carteira %s!</translation>
+        <translation>Erro ao inicializar o ambiente %s da base de dados da carteira</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error loading block database</source>
-        <translation>Erro ao carregar banco de dados de blocos</translation>
+        <translation>Erro ao carregar base de dados de blocos</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Error opening block database</source>
-        <translation>Erro ao abrir banco de dados de blocos</translation>
+        <translation>Erro ao abrir a base de dados de blocos</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Error: Disk space is low!</source>
-        <translation>Erro: Espaço em disco insuficiente!</translation>
+        <translation>Erro: Pouco espaço em disco!</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Erro: Carteira travada, impossível criar transação!</translation>
+        <translation>Erro: Carteira bloqueada, incapaz de criar transacção!</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <translation>Erro: Carteira aberta para gerar apenas, não capaz de criar transacções.</translation>
+    </message>
+    <message>
         <source>Error: system error: </source>
-        <translation>Erro: erro de sistema</translation>
+        <translation>Erro: erro de sistema:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Falha ao escutar em qualquer porta. Use -listen=0 se você quiser isso.</translation>
+        <translation>Falhou a escutar em qualquer porta. Use -listen=0 se pretender esta função.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to read block info</source>
-        <translation>Falha ao ler informação de bloco</translation>
+        <translation>Falha ao ler informação do bloco</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to read block</source>
         <translation>Falha ao ler bloco</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to sync block index</source>
         <translation>Falha ao sincronizar índice de blocos</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write block index</source>
         <translation>Falha ao escrever índice de blocos</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write block info</source>
-        <translation>Falha ao escrever informações de bloco</translation>
+        <translation>Falha ao escrever informação do bloco</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write block</source>
         <translation>Falha ao escrever bloco</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write file info</source>
-        <translation>Falha ao escrever informções de arquivo</translation>
+        <translation>Falha ao escrever informação do ficheiro</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write to coin database</source>
-        <translation>Falha ao escrever banco de dados de moedas</translation>
+        <translation>Falha ao escrever na base de dados de moedas</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write transaction index</source>
-        <translation>Falha ao escrever índice de transações</translation>
+        <translation>Falha ao escrever índice de transacções</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Failed to write undo data</source>
-        <translation>Falha ao escrever dados para desfazer ações</translation>
+        <translation>Falha ao escrever histórico de modificações</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>Procurar pares usando consulta de DNS (padrão: 1 a menos que a opção -connect esteja presente)</translation>
+        <source>Fee per kB to add to transactions you send</source>
+        <translation>Taxa por KB para adicionar às transacções enviadas.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation>Quantos blocos checar ao inicializar (padrão: 288, 0 = todos)</translation>
+        <translation>Quantos blocos por verificar ao começar (por defeito: 288, 0 = todos)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation>Quão minuciosa é a verificação dos blocos (0-4, padrão: 3)</translation>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>Se &lt;category&gt; não é suportada, enviar toda a informação de erro</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <source>Importing...</source>
+        <translation>A importar ...</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>Não bloco genesis ou incorrecto. datadir está errado na redde?</translation>
+    </message>
+    <message>
+        <source>Initialization sanity check failed. Potcoin Core is shutting down.</source>
+        <translation>Verificação de integridade falhou na inicialização. Potcoin core está sendo desligado.</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Invalido -onion endereço: '%s'</translation>
+    </message>
+    <message>
+        <source>Maintain a full transaction index (default: 1)</source>
+        <translation>Mantenha um índice total de transacções (default: 0) {1)?}</translation>
+    </message>
+    <message>
         <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
+        <translation>Os descritores de ficheiros disponíveis são insuficientes.</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <source>Prepend debug output with timestamp (default: 1)</source>
+        <translation>Faça debug com timestamp (defeito: 1)</translation>
+    </message>
+    <message>
+        <source>RPC client options:</source>
+        <translation>Opção para cliente RPC </translation>
+    </message>
+    <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Reconstruir índice de blockchain a partir dos arquivos atuais blk000??.dat</translation>
+        <translation>Reconstruir a cadeia de blocos a partir dos ficheiros blk000??.dat actuais</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <source>Select SOCKS version for -proxy (4 or 5, default: 5)</source>
+        <translation>Selecione a versão SOCKS para -proxy (4 ou 5, defeito: 5)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation>Definir o tamanho da cache de base de dados em megabytes (%d a %d, padrão: %d)</translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>Definir tamanho máximo de bloco em bytes (defeito: %d)</translation>
+    </message>
+    <message>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Defina o número de threads de script de verificação. (Padrão: 4)</translation>
+        <translation>Defina o número de processos para servir as chamadas RPC (por defeito: 4)</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <source>Specify configuration file (default: potcoin.conf)</source>
+        <translation>Especificar ficheiro de configuração (por defeito: potcoin.conf)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: potcoind.pid)</source>
+        <translation>Especificar ficheiro pid (por defeito: potcoind.pid)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Especificar o ficheiro da carteira (dentro do directorio)</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: 1)</source>
+        <translation>Gastar troco não confirmado quando envio de transacções (defeito:1)</translation>
+    </message>
+    <message>
+        <source>Stake your coins to support network and gain reward (default: 1)</source>
+        <translation>Gere moedas para suportar a rede e ganhar prémio extra (defeito: 1)</translation>
+    </message>
+    <message>
+        <source>This is intended for regression testing tools and app development.</source>
+        <translation>Isto é pretendido para ferramentas de teste e desenvolvimento de applicações.</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
-        <translation>Verificando blocos...</translation>
+        <translation>Verificando blocos ...</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Verifying wallet...</source>
-        <translation>Verificando carteira...</translation>
+        <translation>Verificando carteira ...</translation>
     </message>
     <message>
-        <location line="-69"/>
+        <source>Wait for RPC server to start</source>
+        <translation>Espere pelo inicio do servidor RPC</translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>Carteira %s está localizada fora do directório %s</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Opções da Carteira</translation>
+    </message>
+    <message>
+        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
+        <translation>Atenção: Argumento não suportado -debugnet ignorado, utilize -debug=net</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>Precisa de reconstruir a base de dados utilizando -reindex para mudar -txindex</translation>
+    </message>
+    <message>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Importar blocos de um arquivo externo blk000??.dat</translation>
+        <translation>Importar blocos de um ficheiro blk000??.dat externo</translation>
     </message>
     <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Cannot obtain a lock on data directory %s. Potcoin Core is probably already running.</source>
+        <translation>Impossível trancar a pasta de dados %s. Provavelmente o Potcoin Core já está a ser executado.</translation>
     </message>
     <message>
-        <location line="+77"/>
+        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
+        <translation>Erro: A Escuta de ligações de entrada falhou (retornou erro %s)</translation>
+    </message>
+    <message>
+        <source>Execute command when a coinstake transaction is created (%s in cmd is replaced by TxID)</source>
+        <translation>Executar comando quando a moeda gerada é criada (%s em cmd é trocada por TxID)</translation>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Executar comando quando um alerta relevante é recebido ou nós vemos uma bifurcação muito grande (%s em cmd é trocado por uma mensagem)</translation>
+    </message>
+    <message>
+        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
+        <translation>Informação de depuração (defeito: 0, fornecimento &lt;category&gt; é opcional)</translation>
+    </message>
+    <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>Defina o tamanho máximo de transacções alta-prioridade/taxa-baixa em bytes (defeito: %d )</translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications</source>
+        <translation>Esta é uma versão de testes pré-lançamento - use à sua responsabilidade - não usar para minar ou aplicações comerciais</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Informação</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Endereço -tor inválido: &apos;%s&apos;</translation>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Quantia inválida para -minrelaytxfee=&lt;quantidade&gt;: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Quantia inválida para -mintxfee=&lt;quantidade&gt;: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Invalid amount for -reservebalance=&lt;amount&gt;: '%s'</source>
+        <translation>Quantia invalida para -reservebalance=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation>Manter índice completo de transações (padrão: 0)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Buffer máximo de recebimento por conexão, &lt;n&gt;*1000 bytes (padrão: 5000)</translation>
+        <translation>Máximo armazenamento intermédio de recepção por ligação,&lt;n&gt;*1000 bytes (por defeito: 5000)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Buffer máximo de envio por conexão, &lt;n&gt;*1000 bytes (padrão: 1000)</translation>
+        <translation>Máximo armazenamento intermédio de envio por ligação, &lt;n&gt;*1000 bytes (por defeito: 1000)</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>Apenas aceitar cadeia de blocos correspondente a marcas de verificação internas (padrão: 1)</translation>
+        <translation>Apenas aceitar cadeia de blocos coincidente com pontos de controle internos (por defeito: 1)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Apenas conectar em nós na rede &lt;net&gt; (IPv4, IPv6, ou Tor)</translation>
+        <translation>Apenas ligar a nós na rede &lt;net&gt; (IPv4, IPv6 ou Tor)</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>Mostrar informações extras de depuração. Implica em outras opções -debug*</translation>
+        <source>RPC server options:</source>
+        <translation>Opções do servidor RPC:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation>Mostrar informações extras de depuração da rede</translation>
+        <source>SSL options: (see the Potcoin Wiki for SSL setup instructions)</source>
+        <translation>Opções SSL: (ver a Potcoin Wiki para instruções de configuração SSL)</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>Pré anexar a saída de debug com estampa de tempo</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>SSL options: (see wiki.potcoin.com for SSL setup instructions)</source>
-        <translation>Opções SSL: (veja a Wiki do Potcoin para instruções de configuração SSL)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Escolher versão do proxy socks a ser usada (4-5, padrão: 5)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Mandar informação de trace/debug para o console em vez de para o arquivo debug.log</translation>
+        <translation>Enviar informação de rastreio/depuração para a consola e não para o ficheiro debug.log</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation>Mandar informação de trace/debug para o debugger</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>Determinar tamanho máximo de bloco em bytes (padrão: 250000)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Determinar tamanho mínimo de bloco em bytes (padrão: 0)</translation>
+        <translation>Definir tamanho mínimo de um bloco em bytes (por defeito: 0)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>Mostrar todas as opções de depuração (uso: --help -help-debug)</translation>
+    </message>
+    <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Encolher arquivo debug.log ao iniciar o cliente (padrão 1 se opção -debug não estiver presente)</translation>
+        <translation>Encolher ficheiro debug.log ao iniciar o cliente (por defeito: 1 sem -debug definido)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
+        <translation>Falhou assinatura da transação</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Especifique o tempo limite (timeout) da conexão em milissegundos (padrão: 5000) </translation>
+        <translation>Especificar tempo de espera da ligação em milissegundos (por defeito: 5000)</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <source>Start Potcoin Core Daemon</source>
+        <translation>Iniciar Potcoin Core Daemon</translation>
+    </message>
+    <message>
         <source>System error: </source>
         <translation>Erro de sistema:</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
+        <translation>Quantia da transacção é muito baixa</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
+        <translation>Quantia da transacção deverá ser positiva</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Transaction too large</source>
-        <translation type="unfinished"/>
+        <translation>Transação demasiado alta.</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Usage (deprecated, use potcoin-cli):</source>
+        <translation>Utilização (não actualizada, use potcoin-cli)</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Usar UPnP para mapear porta de escuta (padrão: 0)</translation>
+        <translation>Usar UPnP para mapear a porta de escuta (padrão: 0)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Usar UPnP para mapear porta de escuta (padrão: 1 quando estiver escutando)</translation>
+        <translation>Usar UPnP para mapear a porta de escuta (padrão: 1 ao escutar)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>Usar proxy para alcançar serviços escondidos (padrão: mesmo que -proxy)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>Nome de usuário para conexões JSON-RPC</translation>
+        <translation>Nome de utilizador para ligações JSON-RPC</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Warning</source>
-        <translation>Cuidado</translation>
+        <translation>Aviso</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Cuidado: Esta versão está obsoleta, atualização exigida!</translation>
+        <translation>Atenção: Esta versão está obsoleta, é necessário actualizar!</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation>Você precisa reconstruir os bancos de dados usando -reindex para mudar -txindex</translation>
+        <source>Zapping all transactions from wallet...</source>
+        <translation>Procurando por transacções da carteira</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>on startup</source>
+        <translation>na inicialização</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>Versão</translation>
+    </message>
+    <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat corrompido, recuperação falhou</translation>
     </message>
     <message>
-        <location line="-50"/>
         <source>Password for JSON-RPC connections</source>
-        <translation>Senha para conexões JSON-RPC</translation>
+        <translation>Palavra-passe para ligações JSON-RPC</translation>
     </message>
     <message>
-        <location line="-67"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Permitir conexões JSON-RPC de endereços IP específicos</translation>
+        <translation>Permitir ligações JSON-RPC do endereço IP especificado</translation>
     </message>
     <message>
-        <location line="+76"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Enviar comando para nó rodando em &lt;ip&gt; (pardão: 127.0.0.1)</translation>
+        <translation>Enviar comandos para o nó a correr em &lt;ip&gt; (por defeito: 127.0.0.1)</translation>
     </message>
     <message>
-        <location line="-120"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Executar comando quando o melhor bloco mudar (%s no comando será substituído pelo hash do bloco)</translation>
+        <translation>Executar comando quando o melhor bloco mudar (no comando, %s é substituído pela hash do bloco)</translation>
     </message>
     <message>
-        <location line="+147"/>
         <source>Upgrade wallet to latest format</source>
-        <translation>Atualizar carteira para o formato mais recente</translation>
+        <translation>Actualize a carteira para o formato mais recente</translation>
     </message>
     <message>
-        <location line="-21"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Determinar tamanho do pool de endereços para &lt;n&gt; (padrão: 100)</translation>
+        <translation>Definir o tamanho da memória de chaves para &lt;n&gt; (por defeito: 100)</translation>
     </message>
     <message>
-        <location line="-12"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Re-escanear blocos procurando por transações perdidas da carteira</translation>
+        <translation>Procurar transacções em falta na cadeia de blocos</translation>
     </message>
     <message>
-        <location line="+35"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Usar OpenSSL (https) para conexões JSON-RPC</translation>
+        <translation>Usar OpenSSL (https) para ligações JSON-RPC</translation>
     </message>
     <message>
-        <location line="-26"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation>Arquivo de certificado do servidor (padrão: server.cert)</translation>
+        <translation>Ficheiro de certificado do servidor (por defeito: server.cert)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Server private key (default: server.pem)</source>
-        <translation>Chave privada do servidor (padrão: server.pem)</translation>
+        <translation>Chave privada do servidor (por defeito: server.pem)</translation>
     </message>
     <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Algoritmos de criptografia aceitos (padrão: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <location line="+165"/>
         <source>This help message</source>
         <translation>Esta mensagem de ajuda</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Impossível vincular a %s neste computador (bind retornou erro %d, %s)</translation>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation>Conectar através de um proxy socks</translation>
-    </message>
-    <message>
-        <location line="-10"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Permitir consultas DNS para -addnode, -seednode e -connect</translation>
+        <translation>Permitir procuras DNS para -addnode, -seednode e -connect</translation>
     </message>
     <message>
-        <location line="+55"/>
         <source>Loading addresses...</source>
-        <translation>Carregando endereços...</translation>
+        <translation>A carregar endereços...</translation>
     </message>
     <message>
-        <location line="-35"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Erro ao carregar wallet.dat: Carteira corrompida</translation>
+        <translation>Erro ao carregar wallet.dat: Carteira danificada</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Potcoin</source>
-        <translation>Erro ao carregar wallet.dat: Carteira requer uma versão mais nova do Potcoin</translation>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do Potcoin</translation>
     </message>
     <message>
-        <location line="+93"/>
         <source>Wallet needed to be rewritten: restart Potcoin to complete</source>
-        <translation>A Carteira precisou ser reescrita: reinicie o Potcoin para completar</translation>
+        <translation>A Carteira precisou de ser reescrita: reinicie o Potcoin para completar o processo</translation>
     </message>
     <message>
-        <location line="-95"/>
         <source>Error loading wallet.dat</source>
         <translation>Erro ao carregar wallet.dat</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Endereço -proxy inválido: &apos;%s&apos;</translation>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Endereço -proxy inválido: '%s'</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Rede desconhecida especificada em -onlynet: &apos;%s&apos;</translation>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Rede desconhecida especificada em -onlynet: '%s'</translation>
     </message>
     <message>
-        <location line="-1"/>
         <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Versão desconhecida do proxy -socks requisitada: %i</translation>
+        <translation>Versão de proxy -socks requisitada desconhecida: %i</translation>
     </message>
     <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Impossível encontrar o endereço -bind: &apos;%s&apos;</translation>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Não foi possível resolver o endereço -bind: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Impossível encontrar endereço -externalip: &apos;%s&apos;</translation>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Não foi possível resolver o endereço -externalip: '%s'</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Quantidade inválida para -paytxfee=&lt;quantidade&gt;: &apos;%s&apos;</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Quantia inválida para -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Invalid amount</source>
-        <translation>Quantidade inválida</translation>
+        <translation>Quantia inválida</translation>
     </message>
     <message>
-        <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Saldo insuficiente</translation>
+        <translation>Fundos insuficientes</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Loading block index...</source>
-        <translation>Carregando índice de blocos...</translation>
+        <translation>A carregar índice de blocos...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Adicionar um nó com o qual se conectar e tentar manter a conexão ativa</translation>
+        <translation>Adicionar um nó para se ligar e tentar manter a ligação aberta</translation>
     </message>
     <message>
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Potcoin is probably already running.</source>
-        <translation>Impossível vincular a %s neste computador. O Potcoin provavelmente já está rodando.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Taxa por KB a ser acrescida nas transações que você enviar</translation>
-    </message>
-    <message>
-        <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation>Carregando carteira...</translation>
+        <translation>A Carregar carteira...</translation>
     </message>
     <message>
-        <location line="-52"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Não é possível fazer downgrade da carteira</translation>
+        <translation>Impossível mudar a carteira para uma versão anterior</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Cannot write default address</source>
-        <translation>Não foi possível escrever no endereço padrão</translation>
+        <translation>Impossível escrever endereço por defeito</translation>
     </message>
     <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
-        <translation>Re-escaneando...</translation>
+        <translation>Re-examinando...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
-        <translation>Carregamento terminado</translation>
+        <translation>Carregamento completo</translation>
     </message>
     <message>
-        <location line="+82"/>
         <source>To use the %s option</source>
         <translation>Para usar a opção %s</translation>
     </message>
     <message>
-        <location line="-74"/>
         <source>Error</source>
         <translation>Erro</translation>
     </message>
     <message>
-        <location line="-31"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Você precisa especificar rpcpassword=&lt;senha&gt; no arquivo de configurações:⏎
-%s⏎
-Se o arquivo não existir, crie um com permissão de leitura apenas pelo dono</translation>
+        <translation>Deverá definir rpcpassword=&lt;password&gt; no ficheiro de configuração:
+%s
+Se o ficheiro não existir, crie-o com permissões de leitura apenas para o dono.</translation>
     </message>
 </context>
 </TS>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Potcoin
+Comment=Potcoin P2P Cryptocurrency
+Comment[fr]=Potcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Potcoin, eşten eşe kriptografik sanal para birimi
+Exec=potcoin-qt %u
+Terminal=false
+Type=Application
+Icon=potcoin128
+MimeType=x-scheme-handler/potcoin;
+Categories=Office;Finance;

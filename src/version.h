@@ -5,6 +5,7 @@
 #define BITCOIN_VERSION_H
 
 #include "clientversion.h"
+
 #include <string>
 
 //
@@ -22,20 +23,16 @@ extern const std::string CLIENT_BUILD;
 extern const std::string CLIENT_DATE;
 
 // PoSV
-// database format versioning for checkpoints
-static const int DATABASE_VERSION = 80000;
-
-// PoSV
 // nTime field added to CTransaction
-// vchBlockSig field added to CBlock  1000000
-static const int POW_CLIENT_VERSION = 80701;
-static const int POW_PROTOCOL_VERSION = 70002;
+// vchBlockSig field added to CBlock
 static const int POW_TX_VERSION = 3;
 static const int POW_BLOCK_VERSION = 2;
 
+//
 // network protocol versioning
 //
-static const int PROTOCOL_VERSION = 70420;
+
+static const int PROTOCOL_VERSION = 80000;
 
 // intial proto version, to be increased after version/verack negotiation
 static const int INIT_PROTO_VERSION = 209;

@@ -7,7 +7,6 @@ architectures:
 - "amd64"
 packages: 
 - "g++"
-- "libqt4-dev"
 - "git-core"
 - "unzip"
 - "pkg-config"
@@ -16,44 +15,72 @@ packages:
 - "automake"
 - "faketime"
 - "bsdmainutils"
-reference_datetime: "2014-04-01 00:00:00"
+- "libqt4-core"
+- "libqt4-gui"
+- "libqt4-dbus"
+- "libqt4-network"
+- "libqt4-test"
+reference_datetime: "2016-05-28 00:00:00"
 remotes:
-- "url": "https://github.com/potcoin/Potcoin.git"
+- "url": "https://github.com/potcoin-og/Potcoin.git"
   "dir": "potcoin"
 files:
-- "bitcoin-deps-linux32-gitian-r3.zip"
-- "bitcoin-deps-linux64-gitian-r3.zip"
+- "potcoin-deps-linux32-gitian-r9.zip"
+- "potcoin-deps-linux64-gitian-r9.zip"
 - "boost-linux32-1.55.0-gitian-r1.zip"
 - "boost-linux64-1.55.0-gitian-r1.zip"
+- "qt-linux32-4.6.4-gitian-r1.tar.gz"
+- "qt-linux64-4.6.4-gitian-r1.tar.gz"
 script: |
   STAGING="$HOME/install"
-  OPTFLAGS='-O2'
+  OPTFLAGS='-O2 -msse2'
   BINDIR="${OUTDIR}/bin/${GBUILD_BITS}" # 32/64 bit build specific output directory
   TEMPDIR="$HOME/tempdir"
   export TZ=UTC
   export LIBRARY_PATH="$STAGING/lib"
+  export PATH="$STAGING/bin:$PATH"
   mkdir -p ${BINDIR}
   #
   mkdir -p $STAGING
   cd $STAGING
-  unzip ../build/bitcoin-deps-linux${GBUILD_BITS}-gitian-r3.zip
+  unzip ../build/potcoin-deps-linux${GBUILD_BITS}-gitian-r9.zip
   unzip ../build/boost-linux${GBUILD_BITS}-1.55.0-gitian-r1.zip
+  tar -zxf ../build/qt-linux${GBUILD_BITS}-4.6.4-gitian-r1.tar.gz
   cd ../build
+
+  # Avoid exporting *any* symbols from the executable
+  # This avoids conflicts between the libraries statically linked into potcoin and any
+  # libraries we may link dynamically (such as Qt and OpenSSL, see issue #4094).
+  # It also avoids start-up overhead to not export any unnecessary symbols.
+  # To do this, build a linker script that marks all symbols as local.
+  LINKER_SCRIPT=$HOME/build/linker_version_script
+  echo '
+  {
+    local: *;
+  };' > $LINKER_SCRIPT
+  function do_configure {
+      ./configure "$@" --prefix=$STAGING --with-protoc-bindir=$STAGING/host/bin --with-qt-bindir=$STAGING/bin --with-boost=$STAGING --disable-maintainer-mode --disable-dependency-tracking PKG_CONFIG_PATH="$STAGING/lib/pkgconfig" CPPFLAGS="-I$STAGING/include ${OPTFLAGS}" LDFLAGS="-L$STAGING/lib -Wl,--version-script=$LINKER_SCRIPT ${OPTFLAGS}" CXXFLAGS="-frandom-seed=potcoin ${OPTFLAGS}" BOOST_CHRONO_EXTRALIBS="-lrt" --enable-glibc-back-compat
+  }
   #
   cd potcoin
-  mkdir -p $OUTDIR/src
-  git archive HEAD | tar -x -C $OUTDIR/src
-  cp $OUTDIR/src/doc/README.md $OUTDIR
-  cp $OUTDIR/src/COPYING $OUTDIR
-  cd src
-  export BOOST_LIB_PATH="$LIBRARY_PATH"
-  export BOOST_LIB_SUFFIX="-mt"
-  # Boost is built without z on linux so it is not needed anymore. We do need rt however
-  sed -i 's/l z/l rt/g' makefile.unix
-  make -f makefile.unix $MAKEOPTS potcoind STATIC=1 OPENSSL_INCLUDE_PATH="$STAGING/include" OPENSSL_LIB_PATH="$LIBRARY_PATH" USE_UPNP=1 DEBUGFLAGS= USE_SSE2=1
-  mkdir -p $BINDIR
-  install -s potcoind $BINDIR
-  cd ..
-  qmake INCLUDEPATH="$STAGING/include" BOOST_LIB_SUFFIX="-mt" LIBS="-L$LIBRARY_PATH" RELEASE=1 USE_QRCODE=1 USE_SSE2=1
+  ./autogen.sh
+  do_configure
+  make dist
+  DISTNAME=`echo potcoin-*.tar.gz`
+
+  # Build dynamic versions of everything
+  # (with static linking to boost and openssl as well a some non-OS deps)
+  mkdir -p distsrc
+  cd distsrc
+  tar --strip-components=1 -xf ../$DISTNAME
+  do_configure --bindir=$BINDIR 
   make $MAKEOPTS
-  install potcoin-qt $BINDIR
+  make $MAKEOPTS install-strip
+  make $MAKEOPTS clean
+
+  # sort distribution tar file and normalize user/group/mtime information for deterministic output
+  mkdir -p $OUTDIR/src
+  rm -rf $TEMPDIR
+  mkdir -p $TEMPDIR
+  cd $TEMPDIR
+  tar -xvf $HOME/build/potcoin/$DISTNAME | sort | tar --no-recursion -cT /dev/stdin --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 --mtime="$REFERENCE_DATETIME" | gzip -n > $OUTDIR/src/$DISTNAME

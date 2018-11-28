@@ -1,15 +1,6 @@
-Copyright (c) 2009-2013 Bitcoin Developers
-Distributed under the MIT/X11 software license, see the accompanying
-file COPYING or http://www.opensource.org/licenses/mit-license.php.
-This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](http://www.openssl.org/). This product includes
-cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.
-
-
-See readme-qt.rst for instructions on building Potcoin-Qt, the
-graphical user interface.
-
 WINDOWS BUILD NOTES
 ===================
+
 
 Compilers Supported
 -------------------
@@ -21,11 +12,12 @@ Dependencies
 ------------
 Libraries you need to download separately and build:
 
-                default path               download
-OpenSSL         \openssl-1.0.1g-mgw        http://www.openssl.org/source/
-Berkeley DB     \db-4.8.30.NC-mgw          http://www.oracle.com/technology/software/products/berkeley-db/index.html
-Boost           \boost-1.50.0-mgw          http://www.boost.org/users/download/
-miniupnpc       \miniupnpc-1.6-mgw         http://miniupnp.tuxfamily.org/files/
+	name            default path               download
+	--------------------------------------------------------------------------------------------------------------------
+	OpenSSL         \openssl-1.0.1c-mgw        http://www.openssl.org/source/
+	Berkeley DB     \db-4.8.30.NC-mgw          http://www.oracle.com/technology/software/products/berkeley-db/index.html
+	Boost           \boost-1.50.0-mgw          http://www.boost.org/users/download/
+	miniupnpc       \miniupnpc-1.6-mgw         http://miniupnp.tuxfamily.org/files/
 
 Their licenses:
 
@@ -36,7 +28,7 @@ Their licenses:
 
 Versions used in this release:
 
-	OpenSSL      1.0.1g
+	OpenSSL      1.0.1c
 	Berkeley DB  4.8.30.NC
 	Boost        1.50.0
 	miniupnpc    1.6
@@ -49,7 +41,7 @@ MSYS shell:
 un-tar sources with MSYS 'tar xfz' to avoid issue with symlinks (OpenSSL ticket 2377)
 change 'MAKE' env. variable from 'C:\MinGW32\bin\mingw32-make.exe' to '/c/MinGW32/bin/mingw32-make.exe'
 
-	cd /c/openssl-1.0.1g-mgw
+	cd /c/openssl-1.0.1c-mgw
 	./config
 	make
 
@@ -84,6 +76,8 @@ Potcoin
 -------
 MSYS shell:
 
-	cd \potcoin\src
-	mingw32-make -f makefile.mingw
+	cd \potcoin
+	sh autogen.sh
+	sh configure
+	mingw32-make
 	strip potcoind.exe

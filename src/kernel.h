@@ -1,9 +1,9 @@
 // Copyright (c) 2012-2013 The PPCoin developers
-// Copyright (c) 2015 The Potcoin developers
+// Copyright (c) 2014 The Potcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef PPCOIN_KERNEL_H
-#define PPCOIN_KERNEL_H
+#ifndef POTCOIN_KERNEL_H
+#define POTCOIN_KERNEL_H
 
 #include "main.h"
 
@@ -15,26 +15,33 @@ extern unsigned int nModifierInterval;
 static const int MODIFIER_INTERVAL_RATIO = 3;
 
 // Compute the hash modifier for proof-of-stake
-bool ComputeNextStakeModifier(const CBlockIndex* pindexPrev, uint64& nStakeModifier, bool& fGeneratedStakeModifier);
+bool ComputeNextStakeModifier(const CBlockIndex* pindexPrev, uint64_t& nStakeModifier, bool& fGeneratedStakeModifier);
 
 // Check whether stake kernel meets hash target
 // Sets hashProofOfStake on success return
-bool CheckStakeKernelHash(unsigned int nBits, const CBlock& blockFrom, unsigned int nTxPrevOffset, const CTransaction& txPrev, const COutPoint& prevout, unsigned int nTimeTx, uint256& hashProofOfStake, uint256& targetProofOfStake, bool fPrintProofOfStake=false);
+bool CheckStakeKernelHash(unsigned int nBits, const CBlockHeader& blockFrom, unsigned int nTxPrevOffset, const CTransaction& txPrev, const COutPoint& prevout, unsigned int nTimeTx, uint256& hashProofOfStake, uint256& targetProofOfStake, bool fPrintProofOfStake=false);
 
 // Check kernel hash target and coinstake signature
 // Sets hashProofOfStake on success return
 bool CheckProofOfStake(const CTransaction& tx, unsigned int nBits, uint256& hashProofOfStake, uint256& targetProofOfStake);
 
 // Check whether the coinstake timestamp meets protocol
-bool CheckCoinStakeTimestamp(int64 nTimeBlock, int64 nTimeTx);
+bool CheckCoinStakeTimestamp(int64_t nTimeBlock, int64_t nTimeTx);
 
 // Get stake modifier checksum
 unsigned int GetStakeModifierChecksum(const CBlockIndex* pindex);
 
 // Check stake modifier hard checkpoints
-bool CheckStakeModifierCheckpoints(int nHeight, uint64 nStakeModifierChecksum);
+bool CheckStakeModifierCheckpoints(int nHeight, uint64_t nStakeModifierChecksum);
 
 // Get time weight using supplied timestamps
-int64 GetCoinAgeWeight(int64 nIntervalBeginning, int64 nIntervalEnd);
+int64_t GetCoinAgeWeight(int64_t nIntervalBeginning, int64_t nIntervalEnd);
 
-#endif // PPCOIN_KERNEL_H
+// Get transaction coin age
+uint64_t GetCoinAge(const CTransaction& tx);
+
+// Calculate total coin age spent in block
+uint64_t GetCoinAge(const CBlock& block);
+
+
+#endif // POTCOIN_KERNEL_H

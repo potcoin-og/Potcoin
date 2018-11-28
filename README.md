@@ -16,6 +16,7 @@ algorithm which replaced Proof-of-Work (PoW).
  - 40 Second block target
  - just under 220 million mined in PoW phase
  - 5% annual interest in PoSV phase
+ - 2.5% annual interest in PoSV phase to founders
  - difficulty retarget: every block using Kimoto's gravity well
 
 Potcoin first started in January 2014 as a variant of Litecoin using Scrypt as
