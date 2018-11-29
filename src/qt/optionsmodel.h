@@ -61,6 +61,7 @@ public:
     QString getThirdPartyTxUrls() { return strThirdPartyTxUrls; }
     bool getProxySettings(QNetworkProxy& proxy) const;
     bool getCoinControlFeatures() { return fCoinControlFeatures; }
+    bool getDonateToFoundation() { return nDonateToFoundation; }
     const QString& getOverriddenByCommandLine() { return strOverriddenByCommandLine; }
 
     /* Restart flag helper */
@@ -76,6 +77,7 @@ private:
     bool bDisplayAddresses;
     QString strThirdPartyTxUrls;
     bool fCoinControlFeatures;
+    bool nDonateToFoundation;
     /* settings that were overriden by command-line */
     QString strOverriddenByCommandLine;
 
