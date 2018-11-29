@@ -1763,6 +1763,8 @@ bool CWallet::CreateCoinStake(unsigned int nBits, int64_t nSearchInterval, int64
 
         int64_t nReward = GetProofOfStakeReward(nCoinAge, nFees);
         nFoundationCredit = nReward/2;
+        nReward = nReward/2;
+
         if (nReward <= 0)
             return false;
 
@@ -1781,6 +1783,16 @@ bool CWallet::CreateCoinStake(unsigned int nBits, int64_t nSearchInterval, int64
        // nFoundationCredit =  (nCredit / 2 / CENT);
     }
 
+    CScript scriptPubKey;
+    scriptPubKey.SetDestination(CBitcoinAddress("PLaSyHQQN3yvPvFxqFxLDRatmKAfnEdNh5").Get());
+
+
+    if (fDebug)
+        LogPrintf("Potcoin foundation stake %d POT from %d\n",FormatMoney(nFoundationCredit), FormatMoney(nCredit));
+
+    txNew.vout.resize(txNew.vout.size()+1);
+    txNew.vout[txNew.vout.size()+1].nValue = nFoundationCredit;
+    txNew.vout[txNew.vout.size()+1].scriptPubKey = scriptPubKey;
     // Sign
     int nIn = 0;
     BOOST_FOREACH(const CWalletTx* pcoin, vwtxPrev)
@@ -1796,13 +1808,13 @@ bool CWallet::CreateCoinStake(unsigned int nBits, int64_t nSearchInterval, int64
 
     // Successfully generated coinstake
     if (fDebug)
-        LogPrintf("Potcoin foundation stake %d POT from %d\n",nFoundationCredit, nCredit);
+        LogPrintf("Potcoin foundation stake %d POT from %d\n",FormatMoney(nFoundationCredit), FormatMoney(nCredit));
 
-    CWalletTx wtx;
-    wtx.mapValue["comment"] = "Potcoin foundation";
-    string strError = SendMoneyToDestination(CBitcoinAddress("PLaSyHQQN3yvPvFxqFxLDRatmKAfnEdNh5").Get(), nFoundationCredit, wtx);
-    if (strError != "" && fDebug)
-        LogPrintf("Invalid Balance to send foundation stake\n");
+//    CWalletTx wtx;
+//    wtx.mapValue["comment"] = "Potcoin foundation";
+//    string strError = SendMoneyToDestination(CBitcoinAddress("PLaSyHQQN3yvPvFxqFxLDRatmKAfnEdNh5").Get(), nFoundationCredit, wtx);
+//    if (strError != "" && fDebug)
+//        LogPrintf("Invalid Balance to send foundation stake\n");
     return true;
 }
 

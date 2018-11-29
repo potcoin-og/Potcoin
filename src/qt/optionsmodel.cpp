@@ -45,6 +45,9 @@ void OptionsModel::Init()
 
     // These are Qt-only settings:
 
+    if (!settings.contains("nDonateToFoundation"))
+        settings.setValue("nDonateToFoundation", true);
+
     // Window
     if (!settings.contains("fMinimizeToTray"))
         settings.setValue("fMinimizeToTray", false);
@@ -235,6 +238,12 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
         {
         case StartAtStartup:
             successful = GUIUtil::SetStartOnSystemStartup(value.toBool());
+            break;
+        case DonateToFoundation:
+            if (settings.value("nDonateToFoundation") != value) {
+                settings.setValue("nDonateToFoundation", value);
+                setRestartRequired(true);
+            }
             break;
         case MinimizeToTray:
             fMinimizeToTray = value.toBool();

@@ -26,6 +26,7 @@ public:
 
     enum OptionID {
         StartAtStartup,         // bool
+        DonateToFoundation,     // bool
         MinimizeToTray,         // bool
         MapPortUPnP,            // bool
         MinimizeOnClose,        // bool
