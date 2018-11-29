@@ -47,6 +47,7 @@ void OptionsModel::Init()
 
     if (!settings.contains("nDonateToFoundation"))
         settings.setValue("nDonateToFoundation", true);
+    nDonateToFoundation = settings.value("nDonateToFoundation").toBool();
 
     // Window
     if (!settings.contains("fMinimizeToTray"))
@@ -192,8 +193,9 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
         }
         case ProxySocksVersion:
             return settings.value("nSocksVersion", 5);
-            case ProxySocksVersion:
-                return settings.value("nDonateToFoundation");
+
+        case DonateToFoundation:
+            return settings.value("nDonateToFoundation");
 
 #ifdef ENABLE_WALLET
         case Fee:
