@@ -38,6 +38,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="donateToFoundation">
+         <property name="toolTip">
+          <string>Send donation from POSv rewards to foundation.</string>
+         </property>
+         <property name="text">
+          <string>&amp;POSv Donation</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <layout class="QHBoxLayout" name="horizontalLayout_2_Main">
          <item>
           <widget class="QLabel" name="databaseCacheLabel">

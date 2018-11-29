@@ -49,6 +49,9 @@ void OptionsModel::Init()
         settings.setValue("nDonateToFoundation", true);
     nDonateToFoundation = settings.value("nDonateToFoundation").toBool();
 
+    if (!SoftSetBoolArg("-foundation", settings.value("nDonateToFoundation").toBool()))
+        addOverriddenOption("-foundation");
+
     // Window
     if (!settings.contains("fMinimizeToTray"))
         settings.setValue("fMinimizeToTray", false);
