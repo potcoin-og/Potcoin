@@ -192,6 +192,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
         }
         case ProxySocksVersion:
             return settings.value("nSocksVersion", 5);
+            case ProxySocksVersion:
+                return settings.value("nDonateToFoundation");
 
 #ifdef ENABLE_WALLET
         case Fee:
